@@ -6,14 +6,14 @@ Starting principles are:
 
 - Open standards, open source under EUPL 1.2;
 - Compatible with multiple formbuilders;
-- Frontend UI based in Nl Design System;
+- Frontend UI based in NL Design System;
 - Independent of underlying process- or case management systems;
 - Horizontal scalable;
 - A-sync communication with underlying systems.
 
 ## Backend
 
-This repo.
+The repository can be found [here](https://github.com/nl-portal/nl-portal-backend-libraries)
 
 ## Frontend
 
