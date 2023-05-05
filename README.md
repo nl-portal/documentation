@@ -17,8 +17,7 @@ The repository can be found [here](https://github.com/nl-portal/nl-portal-backen
 
 ## Frontend
 
-There is a React and Angular frontend version available. The frontend development of the React version is hosted on
-https://github.com/Gemeente-DenHaag/nl-portal-libraries. More information about NL design can be found on https://nldesignsystem.nl/. 
+There is a React and Angular frontend version available. The frontend development of the React version can be found [here](https://github.com/nl-portal/nl-portal-frontend-libraries). More information about NL design can be found on https://nldesignsystem.nl/. 
 
 
 
