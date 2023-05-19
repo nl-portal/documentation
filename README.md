@@ -19,5 +19,34 @@ The repository can be found [here](https://github.com/nl-portal/nl-portal-backen
 
 There is a React and Angular frontend version available. The frontend development of the React version can be found [here](https://github.com/nl-portal/nl-portal-frontend-libraries). More information about NL design can be found on https://nldesignsystem.nl/. 
 
+## Designs
+
+UI Designs are made in Figma and can be found here: (Instructions in Dutch)
+**Generieke Services Mijn Omgeving**
+De ontwerpen van de generieke services notificaties, berichten, taken en contactmomenten en een overzicht van de content voor die services.
+Link naar het project: https://figmashort.link/8emsT3
+Link naar het protoype: https://figmashort.link/JGDMzi
+Relevante pagina’s: 
+-	🖲 Concept
+-	🖥️ Prototype desktop v3
+-	📱 Prototype mobiel v3
+
+**MVP Mijn Omgeving**
+Het MVP voor het jaar 2023 zoals dat door Vincent is bepaald.   
+Link: https://figmashort.link/WmDz3T
+Relevante pagina’s:
+-	🧱 Keuzes
+-	🖥️ Prototype desktop
+-	📱 Prototype mobiel
+
+**Korte handleiding Figma**
+1 - Pagina’s bekijken
+Klik links bovenin op het Figma logo om de pagina’s te bekijken. 
+![image](https://github.com/nl-portal/documentation/assets/56682291/0d402c96-02f9-40f5-831b-fc8a9188ee7f)
+
+2 - Comment toevoegen
+Klik op de comment button of klik op ‘C’ om een comment achter te laten.
+
+![image](https://github.com/nl-portal/documentation/assets/56682291/25182ff1-62fa-4bc1-a456-ee98c4ff0e24)
 
 
