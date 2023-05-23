@@ -21,32 +21,31 @@ There is a React and Angular frontend version available. The frontend developmen
 
 ## Designs
 
-UI Designs are made in Figma and can be found here: (Instructions in Dutch)
+UI Designs are made in Figma and can be found here:
 **Generieke Services Mijn Omgeving**
-De ontwerpen van de generieke services notificaties, berichten, taken en contactmomenten en een overzicht van de content voor die services.
-Link naar het project: https://figmashort.link/8emsT3
-Link naar het protoype: https://figmashort.link/JGDMzi
-Relevante pagina’s: 
+The designs of generic services notifications, messages, tasks and contactmoments and a overview of the content for these services.
+Link to the project: https://figmashort.link/8emsT3
+Link to the prototype: https://figmashort.link/JGDMzi
+Relevant pages: 
 -	🖲 Concept
 -	🖥️ Prototype desktop v3
 -	📱 Prototype mobiel v3
 
 **MVP Mijn Omgeving**
-Het MVP voor het jaar 2023 zoals dat door Vincent is bepaald.   
+The MVP for the year 2023 as defined by DenHaag PO.
 Link: https://figmashort.link/WmDz3T
-Relevante pagina’s:
+Relevant pages:
 -	🧱 Keuzes
 -	🖥️ Prototype desktop
 -	📱 Prototype mobiel
 
-**Korte handleiding Figma**
-1 - Pagina’s bekijken
-Klik links bovenin op het Figma logo om de pagina’s te bekijken. 
+**Figma Quick start**
+1 - Browsing pages
+Click on the Figma logo in the upper left corner to see the pages.
 ![image](https://github.com/nl-portal/documentation/assets/56682291/0d402c96-02f9-40f5-831b-fc8a9188ee7f)
 
-2 - Comment toevoegen
-Klik op de comment button of klik op ‘C’ om een comment achter te laten.
-
+2 - Add comment
+Click on the comment button or press 'C' to leave a comment.
 ![image](https://github.com/nl-portal/documentation/assets/56682291/25182ff1-62fa-4bc1-a456-ee98c4ff0e24)
 
 
