@@ -1,8 +1,11 @@
 # Contributing to NL Portal
 
-## Adding a feature or bugfix to NL Portal
+Alle code is publiek beschikbaar op onze [github](https://github.com/nl-portal/). Wil je in contact komen met het ontwikkelteam stuur een mailtje naar peter.van.manen@ritense.com. We zijn trots op ons werk, laten je graag meer zien of helpen je op gang te komen.
 
-1. Create an issue in the [NL Portal backend libraries repository](https://github.com/nl-portal/nl-portal-backend-libraries) to discuss your contribution. This is to reduce the work that is required, as it can both reduce the chances of feedback and allows for the NL Portal team to provide some pointers on how to proceed.
-2. Implement the feature/bugfix and create a PR to the development branch. No reviewers are necessary.
-3. Write release notes and documentation for the feature. See below for instructions on how to do this.
-4. Merge the branch after getting an approval from the NL Portal team.
+## Feature of bugfixes toevoegen
+1. Maak een issue aan in de [Frontend](https://github.com/nl-portal/nl-portal-frontend-libraries) of [Backend](https://github.com/nl-portal/nl-portal-backend-libraries) repository. Hiermee willen we zorgen dat alle bugfixes en features afgestemd zijn op elkaar zodat we geen dubbel werk doen
+2. Implementeer de feature of bugfix, test deze en maak een PullRequest naar de development branch
+3. Schrijf de release notes en documentatie
+4. Merge de branch als je een akkoord hebt van het Portal team
+
+We streven naar een maandelijkse release, mocht je sneller een fix of feature nodig hebben laat het ons weten.
