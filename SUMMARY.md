@@ -1,7 +1,10 @@
-# Table of contents
+# Inhoudsopgave
 
 * [Introductie](README.md)
-  * [How to contribute](CONTRIBUTING.md)
-* [Getting started](getting-started/getting-started.md)
-  * [First dive into NL Portal](getting-started/first-dive/first-dive.md)
+  * [Productvisie](PRODUCTVISIE.md)
+  * [Architectuur](ARCHITECTUUR.md)
+  * [Governance](CONTRIBUTING.md)
+  * [Features](FEATURES.md)
+  * [Roadmap](ROADMAP.md)
+
 
