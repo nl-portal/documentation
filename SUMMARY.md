@@ -1,6 +1,6 @@
 # Inhoudsopgave
 
-* [Introductie](README.md)
+* [NL Portal](README.md)
   * [Productvisie](PRODUCTVISIE.md)
   * [Architectuur](ARCHITECTUUR.md)
   * [Governance](CONTRIBUTING.md)
