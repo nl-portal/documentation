@@ -1,5 +1,5 @@
 ---
-description: De Open Source mijn omgeving voor overheden
+description: De open source Mijn Omgeving voor overheden
 layout:
   title:
     visible: true
