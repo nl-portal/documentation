@@ -38,7 +38,7 @@ Op dit moment kent NL Portal de volgende functionaliteiten
 
 ## Code
 
-Alle code staat [op onze github repository](https://github.com/nl-portal/). Je vind hier de volgende dingen:
+Alle code staat [op onze github repository](https://github.com/nl-portal/). Je vindt hier de volgende dingen:
 
 * [Frontend libraries](https://github.com/nl-portal/nl-portal-frontend-libraries) - De React frontend code die het hart is van de NL Portal
 * [Backend libraries](https://github.com/nl-portal/nl-portal-backend-libraries) - De Kotlin code die informatie ontsluit naar de Frontend in GraphQL
