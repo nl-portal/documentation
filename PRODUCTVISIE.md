@@ -1,3 +1,22 @@
+---
+cover: .gitbook/assets/NLportal breed 3.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Productvisie
 
 NL Portal is een open source Mijn Omgeving voor overheden. Het heeft drie doelen, voor drie doelgroepen:
