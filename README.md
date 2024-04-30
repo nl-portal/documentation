@@ -1,7 +1,7 @@
 ---
 description: De open source Mijn Omgeving voor overheden
-cover: .gitbook/assets/NLportal breed 2.png
-coverY: 0
+cover: .gitbook/assets/NLportal breed 3.png
+coverY: -3
 layout:
   cover:
     visible: true
