@@ -1,10 +1,10 @@
 ---
-cover: .gitbook/assets/NLportal breed 3.png
+cover: .gitbook/assets/NLportal breed en hoog 2.png
 coverY: 0
 layout:
   cover:
     visible: true
-    size: full
+    size: hero
   title:
     visible: true
   description:
