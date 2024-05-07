@@ -19,3 +19,4 @@ Releasedatum april 2024
 ## Release 1.4.1
 Releasedatum Mei 2024
 - [Token excahgne](TOKENEXCHANGE.md) toegevoegd om de KVK/BSN uit de frontend token te halen
+- [Valitomo case starten](STARTCASE.md) vanuit de portal
