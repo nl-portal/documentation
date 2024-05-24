@@ -1,5 +1,5 @@
 ---
-description: De open source Mijn Omgeving voor overheden
+description: Dé open source Mijn Omgeving voor overheden
 cover: .gitbook/assets/NLportal breed en hoog 2.png
 coverY: 0
 layout:
@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# NL Portal
+# Untitled
 
 NL Portal is de open source Mijn Omgeving voor overheden, gebouwd volgens de principes van [Common Ground](https://vng.nl/artikelen/common-ground) en de API's van [VNG Zaakgericht werken](https://vng-realisatie.github.io/gemma-zaken/standaard/). De portal is open source en kan door elke (overheids)organisatie gebruikt en verbeterd worden zonder enige restricties.
 
