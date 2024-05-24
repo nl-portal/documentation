@@ -29,7 +29,13 @@ De uitgangspunten in de ontwikkeling van NL Portal:
 * Frontend UI gebaseerd op [NL Design System](https://nldesignsystem.nl/);
 * Voldoet aan alle web toegankelijkheidsrichtlijnen (WCAG);
 * Onafhankelijk van proces- of zaak management systemen;
-* Horizontal schaalbaar;
+* Horizontal schaalbaar.
+
+## Het idee
+
+In deze wat verouderde video van de lancering wordt de achtergrond uitgelegd.&#x20;
+
+{% embed url="https://player.vimeo.com/video/545567338" %}
 
 ## Functionaliteiten
 
