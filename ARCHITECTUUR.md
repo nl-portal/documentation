@@ -46,7 +46,7 @@ Het principe is gestoeld op voorvallen - 'events'. Een service meldt dat er 'iet
 
 Binnen de groep koplopers Common Ground is gekozen voor het **informatiearm a-synchroon communiceren**. Dit betekent dat de informatie ('payload') van het bericht niet in de notificatie wordt vastgelegd maar in een separaat bericht. Vanuit de notificatie wordt verwezen naar dit bericht.
 
-<figure><img src="https://gzac.gitbook.io/~gitbook/image?url=https%3A%2F%2F3213878061-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252FSCQDxYxbCifWgW1LKPa7%252Fuploads%252FlY1OP0xuCjm4Zbne9ibV%252FScreenshot%25202023-05-28%2520at%252019.06.39.png%3Falt%3Dmedia%26token%3D903bb05d-c0ca-425c-b0c2-f24a5420e053&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=dbd02789b4c43d545f609d8b2bba8665adc721928b01734d00e10a6d3f8dbbe5" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image.webp" alt="" width="563"><figcaption></figcaption></figure>
 
 1. Vanuit NL Portal wordt een verzoek in de vorm van een object in de [Objects API](https://objects-and-objecttypes-api.readthedocs.io/en/latest/) geplaatst.
 2. De objects API notificeert het [notificatie component](https://open-notificaties.readthedocs.io/en/latest/).
