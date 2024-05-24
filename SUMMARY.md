@@ -7,3 +7,4 @@
   * [Features](FEATURES.md)
   * [Roadmap](ROADMAP.md)
   * [Releases](RELEASES.md)
+  * [Design & UX](readme/design-and-ux.md)
