@@ -24,4 +24,4 @@ We streven naar een maandelijkse release, mocht je sneller een fix of feature no
 
 ### Deelnemers
 
-<figure><img src="../.gitbook/assets/denhaag_amsterdam_ritense.jpg" alt=""><figcaption></figcaption></figure>
+![deelnemers](img/denhaag_amsterdam_ritense.jpg)

@@ -2,7 +2,7 @@
 
 * [Welkom bij NL Portal](README.md)
 
-## fundamentals
+## Fundamentals
 
 * [Wat is NL Portal](fundamentals/wat-is-nl-portal.md)
 * [Architectuur](fundamentals/architectuur/README.md)
@@ -15,7 +15,10 @@
     * [Verzoek](fundamentals/architectuur/patronen/verzoek.md)
     * [Externe Taak](fundamentals/architectuur/patronen/externe-taak.md)
   * [Authentication en authorization](fundamentals/architectuur/authentication-en-authorization.md)
+* [Features](features/features.md)
+* [Object filtering](features/zaakinformatieobjecten-filtering/zaakinformatie-object-filtering.md)
 * [Open source](fundamentals/open-source.md)
+
 
 ## Configuratie
 
@@ -23,6 +26,7 @@
 * [Eigen vormgeving](configuratie/eigen-vormgeving.md)
 * [Connectiviteit](configuratie/connectiviteit.md)
 * [Deployment guide](configuratie/deployment-guide.md)
+* [Token exchange](configuratie/tokenexchange.md)
 
 ## Support en resources
 
@@ -34,6 +38,22 @@
 ## Product management
 
 * [Governance](product-management/governance.md)
-* [Sprintreviews](product-management/sprintreviews.md)
-* [Release notes](product-management/release-notes.md)
+* [Sprint reviews](product-management/sprintreviews.md)
 * [Roadmap](product-management/roadmap.md)
+
+## Release notes
+
+* [Release notes](release-notes/release-notes.md)
+* 1.x.x
+  * 1.1.0
+    * [Release notes](release-notes/major1/1.1.0/release-notes.md)
+  * 1.4.0
+    * [Release notes](release-notes/major1/1.4.0/release-notes.md)
+  * 1.4.1
+    * [Release notes](release-notes/major1/1.4.1/release-notes.md)
+  * 1.5.0
+    * [Release notes](release-notes/major1/1.5.0/release-notes.md)
+  
+## Contributing to NL portal
+
+* [Contributing to NL portal](contributing/contributing.md)

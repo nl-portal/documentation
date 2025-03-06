@@ -27,7 +27,7 @@ Binnen de Common Ground-gemeenschap is gekozen voor _informatiearme_ asynchrone 
 
 **Voorbeeld: het Verzoek**
 
-<figure><img src="../../../.gitbook/assets/informatiearm.webp" alt=""><figcaption></figcaption></figure>
+![informatie-arm](img/informatiearm.webp)
 
 1. Vanuit NL Portal wordt een Verzoek in de vorm van een object in de Objects API geplaatst.
 2. De Objects API notificeert het notificatiecomponent.

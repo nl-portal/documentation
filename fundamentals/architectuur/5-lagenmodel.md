@@ -5,9 +5,10 @@ Het 5-lagenmodel van Common Ground is een architectuuraanpak ontwikkeld door de 
 1. Het scheiden van data en applicaties. Door data in een gestandaardiseerd formaat op te slaan in een datalaag, wordt voorkomen dat dat in applicaties zit, waardoor de _lockin_ op applicaties wordt verminderd én data-duplicering wordt voorkomen.&#x20;
 2. Het gebruik van componenten in plaats van monolitische silo-applicaties, waardoor componenten vervangbaar zijn en er minder afhankelijkheid ontstaat van één leverancier van een totaaloplossing.&#x20;
 
-NL Portal is een component binnen dit model. Hieronder weergegeven in laag 5, de 'interactielaag'.&#x20;
+NL Portal is een component binnen dit model. Hieronder weergegeven in laag 5, de 'interactielaag'.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-06-05 at 11.58.04.png" alt=""><figcaption><p>5 lagen model Common Ground</p></figcaption></figure>
+![5-lagen-model](img/5-lagen-model.png)
+*5 lagen model Common Ground*
 
 ### Scope NL Portal
 
