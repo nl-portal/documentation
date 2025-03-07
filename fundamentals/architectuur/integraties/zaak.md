@@ -1,14 +1,12 @@
 # Zaak
 
-Mijn lopende zaken worden worden getoond voor klanten. De informatie wordt uit de bron OpenZaak gehaald. Voor natuurlijk personen gebeurt dit op basis van het BSN, voor organisaties op basis van het KVK-nummer.&#x20;
+Mijn lopende zaken worden getoond voor klanten. De informatie wordt uit de bron OpenZaak gehaald. Voor natuurlijk personen gebeurt dit op basis van het BSN, voor organisaties op basis van het KVK-nummer.
 
-Het architectuur gaat uit van het gebruik van 1 installatie van OpenZaak binnen de organisatie. Alle interne zaak- en taakapplicaties registreren de zaak-meta gegevens in OpenZaak, waarmee deze inzichtelijk worden voor de klant.&#x20;
+De architectuur gaat uit van het gebruik van 1 installatie van OpenZaak binnen de organisatie. Alle interne zaak- en taakapplicaties registreren de zaak-meta gegevens in OpenZaak, waarmee deze inzichtelijk worden voor de klant.
 
 Van een Zaak wordt de meta-informatie getoond, zoals aanvraagdatum, zaakstatus en behandelaar. Verder gekoppelde informatie, waaronder documenten.&#x20;
 
-
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-06-05 at 15.13.03.png" alt=""><figcaption></figcaption></figure>
+![zaak-meta-informatie](img/zaak-meta-informatie.png)
 
 #### Track & Trace
 

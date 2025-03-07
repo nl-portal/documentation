@@ -2,8 +2,6 @@
 
 De NL Portal roadmap wordt samengesteld door de stuurgroep, de items worden door de individuele partners gerealiseerd.
 
-<figure><img src="../.gitbook/assets/NL Portal roadmap.png" alt=""><figcaption><p>NL Portal roadmap ter illustratie</p></figcaption></figure>
-
 Onderstaande link leidt naar de actuele roadmap en wordt maandelijks bijgewerkt.
 
 {% embed url="https://ritense.airfocus.com/share/c3369f4370737c36c22d88e1911405c2" %}

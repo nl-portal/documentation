@@ -20,7 +20,7 @@ In deze wat verouderde video van de lancering wordt de achtergrond uitgelegd.
 Het heeft drie doelen, voor drie doelgroepen:
 
 1. Gemak voor burgers en ondernemers.
-2. Efficientie in de uitvoering voor overheden.
+2. Efficiëntie in de uitvoering voor overheden.
 3. Voldoen aan wet- en regelgeving voor beleidsmakers.
 
 **Gemak voor burgers en ondernemers**
@@ -55,23 +55,12 @@ Op dit moment kent NL Portal de volgende functionaliteiten
 * Bezoekers kunnen nieuwe zaken aanmaken;
   * Inwoners en bedrijven kunnen via dit proces de start van een nieuwe zaak initieren.&#x20;
 *   Bezoekers kunnen altijd de actuele status van hun zaken zien;
-
-    * Track & trace-service waar inwoners en medewerkers aanvragen kunnen volgen. Deze service is vooral gericht op het bieden van inzicht in gegevens en minder op interactie.
-
-
-
-    <figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+    * Track & trace-service waar inwoners en medewerkers aanvragen kunnen volgen. Deze service is vooral gericht op het bieden van inzicht in gegevens en minder op interactie. 
+    ![track-and-trace](img/track-and-trace.png)
 * Bezoekers kunnen Taken krijgen in NL Portal
   * Hiermee kunnen inwoners direct zelf zaken regelen bij de gemeente. Deze service laat acties zien die nog door een inwoner of een medewerker moeten worden uitgevoerd. Inwoners kunnen hier bijvoorbeeld extra gegevens aanleveren voor een lopende zaak en in de toekomst kunnen ze een betaling doen in NL Portal.
 * Bezoekers kunnen bestanden downloaden
   * Bezoekers kunnen de documenten die gekoppeld zijn aan hun zaak downloaden. Dit kunnen bijvoorbeeld de besluitdocumenten zijn.&#x20;
 *   Bezoekers hebben een profielpagina
-
     * Binnen NL Portal is onder andere een profielpagina component. Deze profielpagina kan koppelen met HaalCentraal en zo de informatie uit de basisadministratie tonen.
-
-
-
-    <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-
-
-
+    ![profiel](img/profiel.png)
