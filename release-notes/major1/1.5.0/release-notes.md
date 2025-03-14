@@ -11,7 +11,7 @@ een vestiging geen zaken van andere vestigingen mogen zien
 * **Betalingen ondersteuning** Het is nu mogelijk om aanslagen te betalen en automatische
 incasso's in te stellen
 * **Notificaties worden nu weergegeven**
-* **Berichten**  Bied de mogelijkheid om informatieve berichten of meldingen te versturen aan bewoners
+* **Berichten**  Bied de mogelijkheid om informatieve berichten of meldingen in te zien
 
 ## Bugfixes
 
