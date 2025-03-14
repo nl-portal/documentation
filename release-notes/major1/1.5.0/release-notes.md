@@ -11,6 +11,7 @@ een vestiging geen zaken van andere vestigingen mogen zien
 * **Betalingen ondersteuning** Het is nu mogelijk om aanslagen te betalen en automatische
 incasso's in te stellen
 * **Notificaties worden nu weergegeven**
+* **Berichten**  Bied de mogelijkheid om informatieve berichten of meldingen te versturen aan bewoners
 
 ## Bugfixes
 
@@ -34,4 +35,7 @@ De volgende classes zijn deprecated:
 
 ## Bekende problemen
 
-Er zijn geen bekende problemen
+De volgende problemen zijn bekend:
+
+* **Vestigingsnummer bepaald lijst van zaken** This feature does not work as intended yet.
+A hotfix (version 1.5.1) will be released when it is confirmed to work properly
