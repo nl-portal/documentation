@@ -1,14 +1,22 @@
-# NL-Portal 1.5.0
+# NL-Portal x.x.x
 
-## New Features
+## Nieuwe Functionaliteit
 
-The following new features were added:
-* 
+De volgende functionaliteiten zijn nieuw toegevoegd:
 
-## Bugfixs
+
+## Bugfixes
+
+De volgende bugs zijn opgelost
 
 ## Breaking changes
 
+Er zijn geen breaking changes
+
 ## Deprecations
 
-## Known issues
+Er zijn geen deprecations
+
+## Bekende problemen
+
+Er zijn geen bekende problemen
