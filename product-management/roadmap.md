@@ -2,29 +2,30 @@
 
 De NL Portal roadmap wordt samengesteld door de stuurgroep, de items worden door de individuele partners gerealiseerd.
 
-Onderstaande link leidt naar de actuele roadmap en wordt maandelijks bijgewerkt.
+![Roadmap 2025](img/roadmap_2025.png)
 
-{% embed url="https://ritense.airfocus.com/share/c3369f4370737c36c22d88e1911405c2" %}
+## Mijlpalen
+Onderstaande mijlpalen worden opgeleverd om 
 
-### Q2 2024
+### ZGW configuratie via UI
+ZGW-configuratie via UI maakt het mogelijk om ZGW (Zaken, Documenten en Zaken API) instellingen rechtstreeks via een gebruikersvriendelijke interface te beheren. Beheerders kunnen hiermee eenvoudig API-eindpunten, autorisaties, en overige ZGW-specifieke parameters configureren zonder handmatig config-bestanden aan te passen. Dit vergroot de flexibiliteit en verlaagt de kans op fouten bij integratie met ZGW-voorzieningen.
 
-#### Introduceren CMS functionaliteit
+### Huisstijl configuratie via UI
+Huisstijlconfiguratie via UI stelt beheerders in staat om de visuele stijl van de applicatie aan te passen via een gebruiksvriendelijke interface. Op basis van design tokens kunnen kleuren, typografie en componentstijlen worden geconfigureerd in lijn met het NL Design System. Hierdoor is het eenvoudig om de applicatie visueel af te stemmen op de huisstijl van een specifieke organisatie, zonder handmatige codewijzigingen. 
 
-Het klantportaal wordt gekoppeld aan CMS'en om de naadloze integratie van content en functionaliteit mogelijk te maken, waardoor een gestroomlijnde gebruikerservaring ontstaat. Dit vergemakkelijkt het beheer van zowel de website-inhoud als de klantinteracties. Dit resulteert in een efficiënter en effectiever beheer van klantrelaties.
+### Haalcentraal BRP v2
+HaalCentraal BRP v2 integreert de applicatie met de vernieuwde versie van de BRP API van HaalCentraal. Hiermee kunnen actuele persoonsgegevens zoals naam, adres en geboortegegevens veilig en gestandaardiseerd worden opgehaald bij de basisregistratie. Versie 2 biedt verbeterde performance, uitgebreidere datastructuren en betere ondersteuning voor moderne API-standaarden, wat zorgt voor een robuuste en toekomstbestendige koppeling met de BRP.
 
-### Q1 2024
+### Open Product en Open Klant
+De **Open Product**-feature in het NL Portal (zoals Open Inwoner of Open Zaak) is een module waarmee gemeenten centraal hun producten en producttypen kunnen beheren via een gebruiksvriendelijke beheersapplicatie. Denk aan:
 
-#### Proces en thema pagina's
+- **Producttypen** zoals parkeervergunning, paspoortaanvraag of afvalbakplaatsing, inclusief regels, geldigheid en zones.
+- **Producten** als individuele aanvragen — bijvoorbeeld de parkeervergunning van Jan Jansen met kenteken en adresgegevens.
 
-NL Portal is meer dan alleen zaken. Binnen NL Portal gaan ook producten en thema's ondersteund worden.
+Andere applicaties (zoals Open Inwoner of Open Formulieren) kunnen via een REST‑API:
 
-### Q4 2023
+- Lijsten met beschikbare producttypen ophalen;
+- Nieuwe producten aanmaken;
+- Actuele metadata tonen, zoals prijzen of geldigheidsduur.
 
-#### Moderniseren architectuur
-
-Het updaten van de softwarearchitectuur is essentieel om de prestaties en beveiliging van een systeem te verbeteren, waardoor eventuele kwetsbaarheden kunnen worden verholpen en de algehele betrouwbaarheid wordt verhoogd.
-
-#### Whitelabel frontend
-
-Het whitelabel frontend wordt een neutrale frontend op basis van NL Designsystem die eenvoudig in een specifieke huisstijl te stylen is. Het doel hiervan is dat ook kleinere organisaties makkelijk gebruik kunnen maken van NL Portal zonder een geheel eigen designsystem op te zetten.
-
+Door deze gecentraliseerde aanpak ontstaat één bron van waarheid voor producten binnen het NL Portal-ecosysteem, wat onderhoud en integratie eenvoudiger en consistenter maakt.
