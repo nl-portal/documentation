@@ -1,6 +1,6 @@
 # Best practices
 
-In het veelvuldig toepassen van NL Portal zijn een aantal best practises ontdekt. 
+In het veelvuldig toepassen van NL Portal zijn een aantal best practices ontdekt. 
 Wanneer deze gevolgd worden maakt dit ontwikkeling en onderhoud van een NL Portal 
 instantie zo makkelijk mogelijk
 

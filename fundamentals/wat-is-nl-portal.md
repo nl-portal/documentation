@@ -53,7 +53,7 @@ Op dit moment kent NL Portal de volgende functionaliteiten
 * Koppeling met DigiD en eHerkenning
   * DigiD en eHerkenning zijn vertrouwde systeem voor gebruikers, verhoogt de beveiliging door betrouwbare identiteitsverificatie, en biedt gemak doordat veel mensen al een DigiD hebben.
 * Bezoekers kunnen nieuwe zaken aanmaken;
-  * Inwoners en bedrijven kunnen via dit proces de start van een nieuwe zaak initieren.&#x20;
+  * Inwoners en bedrijven kunnen via dit proces de start van een nieuwe zaak initiëren;
 *   Bezoekers kunnen altijd de actuele status van hun zaken zien;
     * Track & trace-service waar inwoners en medewerkers aanvragen kunnen volgen. Deze service is vooral gericht op het bieden van inzicht in gegevens en minder op interactie. 
     ![track-and-trace](img/track-and-trace.png)

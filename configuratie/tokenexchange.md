@@ -6,7 +6,7 @@ Als je een api call doet naar de backend wordt de token onderschept en wordt
 er een call naar keycloak gedaan en hier wordt een nieuwe token opgehaald 
 waar de bsn/kvk wel in zit. Deze wordt nu gebruikt in de verdere applicatie.
 
-### Hoe moet je keyclaok instellen:
+### Hoe moet je keycloak instellen:
 
 Maak een nieuwe client aan voor de backend.
 

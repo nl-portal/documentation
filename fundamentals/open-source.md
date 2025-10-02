@@ -11,7 +11,7 @@
 
 ### Bijdrage leveren
 
-Alle code is publiek beschikbaar op onze [github](https://github.com/nl-portal/). We zijn trots op ons werk, laten je graag meer zien of helpen je op gang te komen.
+Alle code is publiek beschikbaar op onze [github](https://github.com/nl-portal/). We zijn trots op ons werk, tonen je graag meer en staan klaar om je op gang te helpen.
 
 ### Feature of bugfixes toevoegen
 
