@@ -1,7 +1,6 @@
 # Zaak informatieobjecten filtering
 
-Het is mogelijk om te bepalen welke Documenten een gebruiker te zien krijgt op een zaak pagina. Zaak Informatieobjecten
-worden gefilterd voor dat ze geretourneerd worden.
+Het is mogelijk om te bepalen welke Documenten een gebruiker te zien krijgt op een zaak pagina. Zaak Informatieobjecten worden gefilterd voor dat ze geretourneerd worden.
 
 ## Configuratie
 
@@ -14,18 +13,18 @@ configureerd zijn.
 
 ### Opties
 
-De volgende opties zijn van toepassing bij de whitelists en zijn gebaseerd op de
+De volgende opties zijn van toepassing bij de whitelists en zijn gebaseerd op de 
 [enkelvoudiginfromatieobject](https://openzaak.ritense.opengem.nl/documenten/api/v1/schema/#tag/enkelvoudiginformatieobjecten)
 Documenten API specificatie.
 
-| status           | Standaardwaarde |
+| Status           | Standaardwaarde |
 |------------------|:---------------:|
 | ter_vaststelling |                 |
 | in_bewerking     |                 |
 | definitief       |        X        |
 | gearchiveerd     |        X        |
 
-| vertrouwelijkheidaanduiding | Standaardwaarde |
+| Vertrouwelijkheidaanduiding | Standaardwaarde |
 |-----------------------------|:---------------:|
 | openbaar                    |        X        |
 | beperkt_openbaar            |        X        |
