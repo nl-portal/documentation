@@ -6,7 +6,9 @@
 - Introduced initial support for the NL Portal Configuration Panel
 - Added new `payment-direct` module
 - Expanded Opeklant2 functionality to respect vestiging settings
-- It is now possibel to search for Zaken by omschrijving and identificatie
+- Added partial search for Zaken. `CASES_PARTIAL_SEARCH`
+- Improved loading experience for user
+- Added pagination for Zaken page
 
 ## Bugfixes
 
