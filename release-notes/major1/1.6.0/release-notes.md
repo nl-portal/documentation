@@ -2,10 +2,10 @@
 
 ## Features
 
-- Diverse afhankelijkheden geüpgraded
+- Diverse dependencies geüpgraded
 - Eerste versie van het NL Portal Configuratiepaneel toegevoegd
 - Nieuw module toegevoegd: payment-direct
-- Opeklant2 uitgebreid om rekening te houden met vestigingsnummer
+- OpenKlant2 uitgebreid om rekening te houden met vestigingsnummer
 - Gedeeltelijke zoekfunctionaliteit toegevoegd voor Zaken (nieuwe frontend env var: CASES_PARTIAL_SEARCH)
 - Gebruikerservaring tijdens laden verbeterd
 - Paginering toegevoegd aan de Zaken-pagina
