@@ -3,8 +3,8 @@
 ## Features
 
 - Diverse dependencies geüpgraded
-- Nieuwe module `haalcentraal2` geïmplementeerd — biedt ondersteuning voor interactie met `HaalCentraal` BRP 2.0 en `Bewoningen` API’s
-- Volledige ondersteuning toegevoegd voor NL Portal Configuratiepaneel 1.0
+- Nieuwe module `haalcentraal2` geïmplementeerd — biedt ondersteuning voor interactie met HaalCentraal BRP 2.0 en Bewoningen API’s
+- Volledige ondersteuning toegevoegd voor NL Portal Configuration Panel 1.0
 - Nieuwe feature toggle toegevoegd in de frontend om te schakelen tussen OpenKlant 1 en OpenKlant 2 `(OPEN_KLANT_VERSION)`
 - OpenKlant2 uitgebreid met extra functionaliteiten:
     - Zoeken op een specifiek `DigitaleAdres`
@@ -15,7 +15,7 @@
     - Zaken kunnen nu worden uitgesloten op basis van ZaakType. Nieuwe configuratie-optie: `zaakTypesIdsExcluded` (lijst van UUID’s om uit te sluiten in de getZaken-query)
 - Idle timer en logout-waarschuwing toegevoegd aan de frontend
 - UI-verbeteringen:
-    - De gebruikersinformatiepagina is herontworpen om gegevens te tonen uit `OpenKlant` 2.0, `HaalCentraal` BRP 2.0 en `HaalCentraal Bewoningen`
+    - De gebruikersinformatiepagina is herontworpen om gegevens te tonen uit OpenKlant 2.0, HaalCentraal BRP 2.0 en HaalCentraal Bewoningen
     - Verschillende componenten zijn verbeterd in vormgeving en gebruiksvriendelijkheid
 
 ## Bugfixes
