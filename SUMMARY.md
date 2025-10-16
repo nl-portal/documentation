@@ -55,6 +55,8 @@
     * [Release notes](release-notes/major1/1.5.0/release-notes.md)
   * 1.5.1
     * [Release notes](release-notes/major1/1.5.1/release-notes.md)
+  * 1.6.0
+    * [Release notes](release-notes/major1/1.6.0/release-notes.md)
   
 ## Contributing to NL portal
 
