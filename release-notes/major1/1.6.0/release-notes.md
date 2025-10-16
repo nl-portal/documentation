@@ -2,18 +2,18 @@
 
 ## Features
 
-- Upgraded several dependencies
-- Introduced initial support for the NL Portal Configuration Panel
-- Added new `payment-direct` module
-- Expanded Opeklant2 functionality to respect vestiging settings
-- Added partial search for Zaken. New frontend `CASES_PARTIAL_SEARCH` env var.
-- Improved loading experience for user
-- Added pagination for Zaken page
+- Diverse afhankelijkheden geüpgraded
+- Eerste versie van het NL Portal Configuratiepaneel toegevoegd
+- Nieuw module toegevoegd: payment-direct
+- Opeklant2 uitgebreid om rekening te houden met vestigingsnummer
+- Gedeeltelijke zoekfunctionaliteit toegevoegd voor Zaken (nieuwe frontend env var: CASES_PARTIAL_SEARCH)
+- Gebruikerservaring tijdens laden verbeterd
+- Paginering toegevoegd aan de Zaken-pagina
 
 ## Bugfixes
 
-- Fixed openzaak code not using vestiging nummer in queries when configured
-- Fix issue where an enkelvoudiginformatieobject without a vertrouwelijkheidsaanduiding was causing the queries to break.
+- Probleem verholpen waarbij de OpenZaak-code het vestigingsnummer niet gebruikte in queries wanneer dit wel was geconfigureerd
+- Fout verholpen waarbij een enkelvoudiginformatieobject zonder vertrouwelijkheidsaanduiding ervoor zorgde dat queries mislukten
 
 ## Breaking changes
 
