@@ -1,8 +1,7 @@
 # Release notes
 
-This section contains the release notes for the different versions of NL-Portal. These release notes contain information
-on what is new, bugs that have been fixed, breaking changes, code that has been deprecated, and known issues for that
-release version. Additionally, when a new version does not work out of the box, migration notes are present.
+Deze sectie bevat de release-opmerkingen voor de verschillende versies van NL-Portal. Deze release-opmerkingen bevatten informatie over wat er nieuw is, welke bugs zijn opgelost, breaking changes, gedepriciëerde code en bekende problemen in die releaseversie.
 
-This section is intended for everyone who wants to know what changed in a version of NL-Portal. Migration notes are
-intended for more technical users, e.g. a system administrator who wants to keep their NL-Portal installation up to date.
+Daarnaast zijn er migratie-instructies beschikbaar wanneer een nieuwe versie niet direct out-of-the-box werkt.
+
+Deze sectie is bedoeld voor iedereen die wil weten wat er is gewijzigd in een versie van NL-Portal. De migratie-instructies zijn bedoeld voor meer technische gebruikers, zoals een systeembeheerder die zijn NL-Portal-installatie up-to-date wil houden.

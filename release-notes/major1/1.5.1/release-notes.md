@@ -1,11 +1,12 @@
-# NL-Portal 1.5.1
+# Release notes
 
 ## Bugfixes
 
 The following has been fixed:
-* **Limiting returned zaken by vestigingsnummer**  
-    ZakenAPI Client now correctly searches for cases based on a vestigingsnummer and kvk, when the authentication used
-    is of type `BedrijfAuthentication` and the token claims contain a `vestigingsnummer`.
+
+* **Limiting returned zaken by vestigingsnummer**\
+  ZakenAPI Client now correctly searches for cases based on a vestigingsnummer and kvk, when the authentication used\
+  is of type `BedrijfAuthentication` and the token claims contain a `vestigingsnummer`.
 
 ## Breaking changes
 

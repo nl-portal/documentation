@@ -7,8 +7,7 @@ NL Portal koppelt met alle common ground systemen op laag 1 zoals OpenZaak en de
 
 #### Voorbeeld
 
-Stel dat we een NL Portal instantie willen koppelen aan Open Zaak. Als eerste loggen we dan in in Open Zaak en gaan we naar Applicaties.
-![openzaak-beheer](img/openzaak-beheer.png)
+Stel dat we een NL Portal instantie willen koppelen aan Open Zaak. Als eerste loggen we dan in in Open Zaak en gaan we naar Applicaties.![openzaak-beheer](img/openzaak-beheer.png)
 
 Vervolgens kun je daar een nieuwe applicatie toevoegen.
 
@@ -22,4 +21,4 @@ Ga vervolgens naar het scherm beheer autorisatiegegevens en selecteer daar welke
 
 ![openzaak-autorisaties](img/openzaak-autorisaties.png)
 
-Vervolgens moet NL Portal geconfigureerd worden om gebruik te maken van de aangemaakte autorisatiegevens. Dit kan met behulp van [environment variabelen](https://en.wikipedia.org/wiki/Environment_variable), of oplossing zoals de [azure key vault](https://azure.microsoft.com/en-us/products/key-vault), of de [aws key management service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html).&#x20;
+Vervolgens moet NL Portal geconfigureerd worden om gebruik te maken van de aangemaakte autorisatiegevens. Dit kan met behulp van [environment variabelen](https://en.wikipedia.org/wiki/Environment_variable), of oplossing zoals de [azure key vault](https://azure.microsoft.com/en-us/products/key-vault), of de [aws key management service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html).

@@ -1,21 +1,23 @@
-# NL-Portal 1.5.0
+# Release notes
 
 ## Nieuwe Functionaliteit
 
 De volgende functionaliteiten zijn nieuw toegevoegd:
-* **Externe-klanttaak support** Deze wijziging heeft geresulteerd in deprecated classes.
-Zie Deprecations voor meer informatie
-* **Vestigingsnummer bepaald lijst van zaken** Voor organisaties waarbij medewerkers van 
-een vestiging geen zaken van andere vestigingen mogen zien
+
+* **Externe-klanttaak support** Deze wijziging heeft geresulteerd in deprecated classes.\
+  Zie Deprecations voor meer informatie
+* **Vestigingsnummer bepaald lijst van zaken** Voor organisaties waarbij medewerkers van\
+  een vestiging geen zaken van andere vestigingen mogen zien
 * **Zaak informatieobject filtering**
-* **Betalingen ondersteuning** Het is nu mogelijk om aanslagen te betalen en automatische
-incasso's in te stellen
+* **Betalingen ondersteuning** Het is nu mogelijk om aanslagen te betalen en automatische\
+  incasso's in te stellen
 * **Notificaties worden nu weergegeven**
-* **Berichten**  Bied de mogelijkheid om informatieve berichten of meldingen in te zien
+* **Berichten** Bied de mogelijkheid om informatieve berichten of meldingen in te zien
 
 ## Bugfixes
 
 De volgende bugs zijn opgelost:
+
 * **Zaken worden gepagineerd weergegeven**
 
 ## Breaking changes
@@ -37,5 +39,5 @@ De volgende classes zijn deprecated:
 
 De volgende problemen zijn bekend:
 
-* **Vestigingsnummer bepaald lijst van zaken** This feature does not work as intended yet.
-A hotfix (version 1.5.1) will be released when it is confirmed to work properly
+* **Vestigingsnummer bepaald lijst van zaken** This feature does not work as intended yet.\
+  A hotfix (version 1.5.1) will be released when it is confirmed to work properly

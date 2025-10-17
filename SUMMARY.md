@@ -19,7 +19,6 @@
 * [Object filtering](features/zaakinformatieobjecten-filtering/zaakinformatie-object-filtering.md)
 * [Open source](fundamentals/open-source.md)
 
-
 ## Configuratie
 
 * [Opzetten NL Portal](configuratie/opzetten-nl-portal.md)
@@ -38,28 +37,27 @@
 ## Product management
 
 * [Governance](product-management/governance.md)
-* [Sprint reviews](product-management/sprintreviews.md)
 * [Roadmap](product-management/roadmap.md)
 
 ## Release notes
 
 * [Release notes](release-notes/release-notes.md)
-* 1.x.x
-  * 1.1.0
+* [1.x.x](release-notes/1.x.x/README.md)
+  * [1.1.0](release-notes/1.x.x/1.1.0/README.md)
     * [Release notes](release-notes/major1/1.1.0/release-notes.md)
-  * 1.4.0
+  * [1.4.0](release-notes/1.x.x/1.4.0/README.md)
     * [Release notes](release-notes/major1/1.4.0/release-notes.md)
-  * 1.4.1
+  * [1.4.1](release-notes/1.x.x/1.4.1/README.md)
     * [Release notes](release-notes/major1/1.4.1/release-notes.md)
-  * 1.5.0
+  * [1.5.0](release-notes/1.x.x/1.5.0/README.md)
     * [Release notes](release-notes/major1/1.5.0/release-notes.md)
-  * 1.5.1
+  * [1.5.1](release-notes/1.x.x/1.5.1/README.md)
     * [Release notes](release-notes/major1/1.5.1/release-notes.md)
-  * 1.6.0
+  * [1.6.0](release-notes/1.x.x/1.6.0/README.md)
     * [Release notes](release-notes/major1/1.6.0/release-notes.md)
-  * 2.0.0
+  * [2.0.0](release-notes/1.x.x/2.0.0/README.md)
     * [Release notes](release-notes/major1/2.0.0/release-notes.md)
-  
+
 ## Contributing to NL portal
 
 * [Contributing to NL portal](contributing/contributing.md)
