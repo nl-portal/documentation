@@ -6,15 +6,15 @@
 
 * [Wat is NL Portal](fundamentals/wat-is-nl-portal.md)
 * [Architectuur](fundamentals/architectuur/README.md)
-  * [5-lagenmodel](fundamentals/architectuur/5-lagenmodel.md)
-  * [Integraties](fundamentals/architectuur/integraties/README.md)
-    * [Zaak](fundamentals/architectuur/integraties/zaak.md)
-    * [Mijn gegevens](fundamentals/architectuur/integraties/mijn-gegevens.md)
-    * [Product](fundamentals/architectuur/integraties/product.md)
-  * [Patronen](fundamentals/architectuur/patronen/README.md)
-    * [Verzoek](fundamentals/architectuur/patronen/verzoek.md)
-    * [Externe Taak](fundamentals/architectuur/patronen/externe-taak.md)
-  * [Authentication en authorization](fundamentals/architectuur/authentication-en-authorization.md)
+    * [5-lagenmodel](fundamentals/architectuur/5-lagenmodel.md)
+    * [Integraties](fundamentals/architectuur/integraties/README.md)
+        * [Zaak](fundamentals/architectuur/integraties/zaak.md)
+        * [Mijn gegevens](fundamentals/architectuur/integraties/mijn-gegevens.md)
+        * [Product](fundamentals/architectuur/integraties/product.md)
+    * [Patronen](fundamentals/architectuur/patronen/README.md)
+        * [Verzoek](fundamentals/architectuur/patronen/verzoek.md)
+        * [Externe Taak](fundamentals/architectuur/patronen/externe-taak.md)
+    * [Authentication en authorization](fundamentals/architectuur/authentication-en-authorization.md)
 * [Features](features/features.md)
 * [Object filtering](features/zaakinformatieobjecten-filtering/zaakinformatie-object-filtering.md)
 * [Open source](fundamentals/open-source.md)
@@ -42,21 +42,17 @@
 ## Release notes
 
 * [Release notes](release-notes/release-notes.md)
-* [1.x.x](release-notes/1.x.x/README.md)
-  * [1.1.0](release-notes/1.x.x/1.1.0/README.md)
-    * [Release notes](release-notes/major1/1.1.0/release-notes.md)
-  * [1.4.0](release-notes/1.x.x/1.4.0/README.md)
-    * [Release notes](release-notes/major1/1.4.0/release-notes.md)
-  * [1.4.1](release-notes/1.x.x/1.4.1/README.md)
-    * [Release notes](release-notes/major1/1.4.1/release-notes.md)
-  * [1.5.0](release-notes/1.x.x/1.5.0/README.md)
-    * [Release notes](release-notes/major1/1.5.0/release-notes.md)
-  * [1.5.1](release-notes/1.x.x/1.5.1/README.md)
-    * [Release notes](release-notes/major1/1.5.1/release-notes.md)
-  * [1.6.0](release-notes/1.x.x/1.6.0/README.md)
-    * [Release notes](release-notes/major1/1.6.0/release-notes.md)
-  * [2.0.0](release-notes/1.x.x/2.0.0/README.md)
-    * [Release notes](release-notes/major1/2.0.0/release-notes.md)
+* 1.x.x
+    * [1.1.0](release-notes/1.x.x/1.1.0/release-notes.md)
+    * [1.4.0](release-notes/1.x.x/1.4.0/release-notes.md)
+    * [1.4.1](release-notes/1.x.x/1.4.1/release-notes.md)
+    * [1.5.0](release-notes/1.x.x/1.5.0/release-notes.md)
+    * [1.5.1](release-notes/1.x.x/1.5.1/release-notes.md)
+    * [1.6.0](release-notes/1.x.x/1.6.0/release-notes.md)
+* 2.x.x
+    * [2.0.0](release-notes/2.x.x/2.0.0/release-notes.md)
+* 3.x.x
+    * [3.0.0](release-notes/3.x.x/3.0.0/release-notes.md)
 
 ## Contributing to NL portal
 
