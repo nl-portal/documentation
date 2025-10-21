@@ -28,6 +28,7 @@
   ([#426](https://github.com/nl-portal/nl-portal-frontend-libraries/pull/426)).
 * Ondersteuning geïntroduceerd voor [Open Product](https://github.com/maykinmedia/open-product) via de `openproduct` NL
   Portal Backend-module. Dit is bedoeld om de op Objecten API gebaseerde `product`-module te vervangen.
+* Formio-componenten zijn vervangen door maatwerkcomponenten die de stijlen van de applicatie volgen, waardoor Formio-formulieren prettiger zijn om mee te werken.
 
 ## Bugfixes
 
