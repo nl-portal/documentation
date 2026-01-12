@@ -56,4 +56,4 @@ Er zijn geen bugfixes.
 
 ## Bekende problemen
 
-Er zijn geen bekende problemen.
+* Vooraf invullen van select- en radio-componenten in Externe Klanttaak-formulieren werkt niet; dit wordt opgelost in de aankomende 3.0.1 patch.
