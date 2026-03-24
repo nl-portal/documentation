@@ -6,8 +6,6 @@ Het **Platform Generieke Dienstverlening (PGD)** is de technische architectuurla
 
 PGD is een Common Ground-initiatief, ontwikkeld in samenwerking tussen gemeenten, leveranciers en Dimpact. Het biedt één gezamenlijke plek voor architectuurafspraken, zodat conflicterende implementaties tussen gemeenten worden voorkomen.
 
-**Doelgroep PGD**: architecten, ontwikkelaars en beleidsmedewerkers die de technische blauwdruk van het dienstverleningsplatform willen begrijpen.
-
 **Authoritative bron**: [Platform Generieke Dienstverlening — GitBook](https://dienstverleningsplatform.gitbook.io/platform-generieke-dienstverlening-public)
 
 ---
