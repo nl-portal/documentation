@@ -1,6 +1,6 @@
 #!/bin/bash
 
-exclusions=('./SUMMARY.md' './release-notes/template')
+exclusions=('./SUMMARY.md' './release-notes/template' './CLAUDE.md' './_research')
 allFiles=$(find . -name '*.md' | sort -d)
 missingFiles=()
 

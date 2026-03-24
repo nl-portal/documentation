@@ -2,37 +2,45 @@
 
 * [Welkom bij NL Portal](README.md)
 
-## Fundamentals
+## Waarom NL Portal?
 
-* [Wat is NL Portal](fundamentals/wat-is-nl-portal.md)
-* [Architectuur](fundamentals/architectuur/README.md)
-    * [5-lagenmodel](fundamentals/architectuur/5-lagenmodel.md)
-    * [Integraties](fundamentals/architectuur/integraties/README.md)
-        * [Zaak](fundamentals/architectuur/integraties/zaak.md)
-        * [Mijn gegevens](fundamentals/architectuur/integraties/mijn-gegevens.md)
-        * [Product](fundamentals/architectuur/integraties/product.md)
-    * [Patronen](fundamentals/architectuur/patronen/README.md)
-        * [Verzoek](fundamentals/architectuur/patronen/verzoek.md)
-        * [Externe Taak](fundamentals/architectuur/patronen/externe-taak.md)
-    * [Authentication en authorization](fundamentals/architectuur/authentication-en-authorization.md)
-* [Features](features/features.md)
-* [Object filtering](features/zaakinformatieobjecten-filtering/zaakinformatie-object-filtering.md)
-* [Open source](fundamentals/open-source.md)
+* [Waarom NL Portal?](waarom-nl-portal/README.md)
+  * [Digitale dienstverlening als opgave](waarom-nl-portal/digitale-dienstverlening.md)
+  * [NL Portal als MijnServices-implementatie](waarom-nl-portal/mijnservices-implementatie.md)
+  * [Open source en governance](waarom-nl-portal/open-source-en-governance.md)
 
-## Configuratie
+## Wat kan NL Portal?
 
-* [Opzetten NL Portal](configuratie/opzetten-nl-portal.md)
-* [Eigen vormgeving](configuratie/eigen-vormgeving.md)
-* [Connectiviteit](configuratie/connectiviteit.md)
-* [Deployment guide](configuratie/deployment-guide.md)
-* [Token exchange](configuratie/tokenexchange.md)
+* [Wat kan NL Portal?](wat-kan-nl-portal/README.md)
+  * [Functionaliteiten per MijnServices-bouwsteen](wat-kan-nl-portal/functionaliteiten.md)
+  * [Authenticatie en toegang](wat-kan-nl-portal/authenticatie.md)
 
-## Support en resources
+## Hoe werkt NL Portal?
 
-* [Best practices](support-en-resources/best-practices.md)
+* [Hoe werkt NL Portal?](hoe-werkt-nl-portal/README.md)
+  * [Integraties](hoe-werkt-nl-portal/integraties.md)
+  * [Patronen](hoe-werkt-nl-portal/patronen.md)
+  * [Authenticatie en token exchange](hoe-werkt-nl-portal/authenticatie-en-tokenexchange.md)
+  * [Configuration Panel](hoe-werkt-nl-portal/configuration-panel.md)
+
+## NL Design System en huisstijl
+
+* [NL Design System](nl-design-system/README.md)
+  * [Huisstijl toepassen](nl-design-system/huisstijl.md)
+
+## Koppelingen
+
+* [Koppelingen](koppelingen.md)
+
+## Platform Generieke Dienstverlening
+
+* [Platform Generieke Dienstverlening](platform-generieke-dienstverlening.md)
+
+## Community en bijdragen
+
 * [Community en support](support-en-resources/community-en-support.md)
 * [Repositories](support-en-resources/repositories.md)
-* [Impressies](support-en-resources/impressies.md)
+* [Bijdragen aan NL Portal](contributing/contributing.md)
 
 ## Product management
 
@@ -53,7 +61,3 @@
     * [2.0.0](release-notes/2.x.x/2.0.0/release-notes.md)
 * 3.x.x
     * [3.0.0](release-notes/3.x.x/3.0.0/release-notes.md)
-
-## Contributing to NL portal
-
-* [Contributing to NL portal](contributing/contributing.md)
