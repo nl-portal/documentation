@@ -35,3 +35,13 @@ NL Portal is open source (EUPL 1.2), community-gedreven en onderhouden door Rite
 → [Open source en governance](waarom-nl-portal/open-source-en-governance.md)
 → [Repositories](support-en-resources/repositories.md)
 → [Release notes](release-notes/release-notes.md)
+
+---
+
+## Gemeenten en partners
+
+NL Portal wordt gebruikt en mede-ontwikkeld door Nederlandse gemeenten en leveranciers.
+
+| | | | |
+|:-:|:-:|:-:|:-:|
+| <img src=".gitbook/assets/logo-denhaag.jpg" height="60" alt="Gemeente Den Haag"> | <img src=".gitbook/assets/logo-utrecht.svg" height="60" alt="Gemeente Utrecht"> | <img src=".gitbook/assets/logo-amsterdam.svg" height="60" alt="Gemeente Amsterdam"> | <img src=".gitbook/assets/logo-pink.jpg" height="60" alt="PinkRoccade"> |
