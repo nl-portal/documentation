@@ -1,0 +1,116 @@
+<svg width="900" height="540" viewBox="0 0 900 540" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#0F2D5E" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="540" fill="#EEF4FB"/>
+
+  <!-- Header -->
+  <rect width="900" height="66" fill="#0F2D5E"/>
+  <text x="450" y="38" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.2">Drie kaders voor digitale dienstverlening</text>
+  <text x="450" y="55" font-size="12" fill="#93C5FD" text-anchor="middle">NL Portal geeft invulling aan alle drie</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CARD 1: NDS                                     -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="18" y="80" width="272" height="388" fill="white" rx="10" filter="url(#shadow)"/>
+  <!-- top accent -->
+  <rect x="18" y="80" width="272" height="6" fill="#1E6BB8" rx="10"/>
+  <rect x="18" y="84" width="272" height="6" fill="#1E6BB8"/>
+  <!-- number badge -->
+  <circle cx="154" cy="122" r="24" fill="#EFF6FF"/>
+  <text x="154" y="130" font-size="22" font-weight="800" fill="#1E6BB8" text-anchor="middle">1</text>
+  <!-- title -->
+  <text x="154" y="166" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">Nationale</text>
+  <text x="154" y="183" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">Digitaliseringsstrategie</text>
+  <text x="154" y="199" font-size="11" fill="#64748B" text-anchor="middle">NDS · gelanceerd 4 juli 2025</text>
+  <!-- divider -->
+  <line x1="34" y1="212" x2="272" y2="212" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- bullets -->
+  <circle cx="36" cy="230" r="4" fill="#1E6BB8"/>
+  <text x="48" y="234" font-size="11.5" fill="#334155">Prioriteit 4: burgers centraal</text>
+  <circle cx="36" cy="254" r="4" fill="#1E6BB8"/>
+  <text x="48" y="258" font-size="11.5" fill="#334155">Prioriteit 5: digitale weerbaarheid</text>
+  <circle cx="36" cy="278" r="4" fill="#1E6BB8"/>
+  <text x="48" y="282" font-size="11.5" fill="#334155">Standaarden worden bindend</text>
+  <circle cx="36" cy="302" r="4" fill="#1E6BB8"/>
+  <text x="48" y="306" font-size="11.5" fill="#334155">ZGW-suite verplicht gesteld</text>
+  <circle cx="36" cy="326" r="4" fill="#1E6BB8"/>
+  <text x="48" y="330" font-size="11.5" fill="#334155">Governance via NDS-raad</text>
+  <!-- NL Portal tag -->
+  <rect x="30" y="394" width="248" height="62" fill="#EFF6FF" rx="8"/>
+  <text x="154" y="413" font-size="10" font-weight="700" fill="#1E6BB8" text-anchor="middle" letter-spacing="0.5">NL PORTAL INVULLING</text>
+  <text x="154" y="430" font-size="11.5" fill="#334155" text-anchor="middle">Open source · EUPL 1.2</text>
+  <text x="154" y="446" font-size="11.5" fill="#334155" text-anchor="middle">Leveranciersneutraal</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CARD 2: Wmebv                                   -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="314" y="80" width="272" height="388" fill="white" rx="10" filter="url(#shadow)"/>
+  <rect x="314" y="80" width="272" height="6" fill="#0E7B48" rx="10"/>
+  <rect x="314" y="84" width="272" height="6" fill="#0E7B48"/>
+  <circle cx="450" cy="122" r="24" fill="#F0FDF4"/>
+  <text x="450" y="130" font-size="22" font-weight="800" fill="#0E7B48" text-anchor="middle">2</text>
+  <text x="450" y="166" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">Wmebv</text>
+  <text x="450" y="183" font-size="11" fill="#64748B" text-anchor="middle">Wet modernisering elektronisch</text>
+  <text x="450" y="199" font-size="11" fill="#64748B" text-anchor="middle">bestuurlijk verkeer</text>
+  <!-- status pill -->
+  <rect x="390" y="209" width="120" height="20" fill="#DCFCE7" rx="5"/>
+  <text x="450" y="223" font-size="10.5" font-weight="600" fill="#0E7B48" text-anchor="middle">In werking: 1 jan 2026</text>
+  <!-- divider -->
+  <line x1="330" y1="240" x2="568" y2="240" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- bullets -->
+  <circle cx="332" cy="258" r="4" fill="#0E7B48"/>
+  <text x="344" y="262" font-size="11.5" fill="#334155">Digitaal kanaal verplicht</text>
+  <circle cx="332" cy="282" r="4" fill="#0E7B48"/>
+  <text x="344" y="286" font-size="11.5" fill="#334155">Berichten ontvangen + beantwoorden</text>
+  <circle cx="332" cy="306" r="4" fill="#0E7B48"/>
+  <text x="344" y="310" font-size="11.5" fill="#334155">VNG-aanbeveling: MijnBerichten</text>
+  <circle cx="332" cy="330" r="4" fill="#0E7B48"/>
+  <text x="344" y="334" font-size="11.5" fill="#334155">+ OMC Notify voor notificaties</text>
+  <!-- NL Portal tag -->
+  <rect x="326" y="394" width="248" height="62" fill="#F0FDF4" rx="8"/>
+  <text x="450" y="413" font-size="10" font-weight="700" fill="#0E7B48" text-anchor="middle" letter-spacing="0.5">NL PORTAL INVULLING</text>
+  <text x="450" y="430" font-size="11.5" fill="#334155" text-anchor="middle">MijnBerichten-bouwsteen</text>
+  <text x="450" y="446" font-size="11.5" fill="#334155" text-anchor="middle">Bijdrage aan Wmebv-compliance</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CARD 3: Common Ground                           -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="610" y="80" width="272" height="388" fill="white" rx="10" filter="url(#shadow)"/>
+  <rect x="610" y="80" width="272" height="6" fill="#6D28D9" rx="10"/>
+  <rect x="610" y="84" width="272" height="6" fill="#6D28D9"/>
+  <circle cx="746" cy="122" r="24" fill="#F5F3FF"/>
+  <text x="746" y="130" font-size="22" font-weight="800" fill="#6D28D9" text-anchor="middle">3</text>
+  <text x="746" y="166" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">Common Ground</text>
+  <text x="746" y="183" font-size="11" fill="#64748B" text-anchor="middle">VNG Realisatie</text>
+  <text x="746" y="199" font-size="11" fill="#64748B" text-anchor="middle">informatie-architectuurprogramma</text>
+  <!-- divider -->
+  <line x1="626" y1="212" x2="864" y2="212" stroke="#E2E8F0" stroke-width="1"/>
+  <!-- bullets -->
+  <circle cx="628" cy="230" r="4" fill="#6D28D9"/>
+  <text x="640" y="234" font-size="11.5" fill="#334155">Data bij de bron</text>
+  <circle cx="628" cy="254" r="4" fill="#6D28D9"/>
+  <text x="640" y="258" font-size="11.5" fill="#334155">Vijflagenmodel</text>
+  <circle cx="628" cy="278" r="4" fill="#6D28D9"/>
+  <text x="640" y="282" font-size="11.5" fill="#334155">API-first (ZGW REST APIs)</text>
+  <circle cx="628" cy="302" r="4" fill="#6D28D9"/>
+  <text x="640" y="306" font-size="11.5" fill="#334155">Open source (EUPL 1.2)</text>
+  <circle cx="628" cy="326" r="4" fill="#6D28D9"/>
+  <text x="640" y="330" font-size="11.5" fill="#334155">Samen bouwen</text>
+  <!-- NL Portal tag -->
+  <rect x="622" y="394" width="248" height="62" fill="#F5F3FF" rx="8"/>
+  <text x="746" y="413" font-size="10" font-weight="700" fill="#6D28D9" text-anchor="middle" letter-spacing="0.5">NL PORTAL INVULLING</text>
+  <text x="746" y="430" font-size="11.5" fill="#334155" text-anchor="middle">Laag 5 — interactielaag</text>
+  <text x="746" y="446" font-size="11.5" fill="#334155" text-anchor="middle">GraphQL op ZGW REST APIs</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- Bottom bar                                      -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="18" y="482" width="864" height="44" fill="#0F2D5E" rx="8"/>
+  <text x="450" y="499" font-size="10" font-weight="700" fill="#93C5FD" text-anchor="middle" letter-spacing="0.8">KERNBOODSCHAP</text>
+  <text x="450" y="516" font-size="12" fill="white" text-anchor="middle">NL Portal kiezen is een compliancekeuze — aansluitend op NDS, Wmebv én Common Ground</text>
+</svg>

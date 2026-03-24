@@ -2,6 +2,8 @@
 
 Digitale dienstverlening voor gemeenten is geen optie meer — het is een wettelijke en beleidsmatige verplichting. Drie kaders bepalen de urgentie.
 
+![Drie kaders voor digitale dienstverlening](../img/infographic-digitale-dienstverlening.svg)
+
 ---
 
 ## Nationale Digitaliseringsstrategie (NDS)
@@ -42,7 +44,7 @@ Concreet houdt dit in:
 - Burgers moeten berichten van de gemeente digitaal kunnen ontvangen en beantwoorden
 - Gemeenten moeten een betrouwbaar digitaal berichtenkanaal aanbieden
 
-**MijnBerichten** — de bouwsteen voor digitale berichtenuitwisseling — is het door VNG aanbevolen implementatiepad voor Wmebv-compliance. NL Portal implementeert MijnBerichten out-of-the-box.
+VNG beveelt twee bouwstenen aan voor Wmebv-compliance: **MijnBerichten** (digitale berichtenuitwisseling) en **OMC Notify** (notificaties bij statuswijzigingen en nieuwe berichten). NL Portal implementeert MijnBerichten en draagt daarmee bij aan de invulling van een deel van de Wmebv-vereisten.
 
 → Zie ook: [Wmebv | VNG](https://vng.nl/wmebv)
 
@@ -74,7 +76,7 @@ De **Realisatiekoers Common Ground** (goedgekeurd door VNG ALV mei 2025) stelt d
 |---|---|---|
 | NDS Prioriteit 4 | Één digitale omgeving voor burgers | MijnZaken, MijnTaken, MijnBerichten, MijnProfiel |
 | NDS Prioriteit 5 | Open source, geen vendor lock-in | EUPL 1.2, community-gedreven, leveranciersneutraal |
-| Wmebv (1 jan 2026) | Digitaal berichtenkanaal verplicht | MijnBerichten out-of-the-box |
+| Wmebv (1 jan 2026) | Digitaal berichtenkanaal verplicht | MijnBerichten (deel van de vereisten) |
 | Common Ground | API-first, data bij de bron | GraphQL-aggregatielaag op ZGW REST APIs |
 | Bindende standaarden | ZGW-suite, REST API Design Rules | Volledig geïmplementeerd |
 

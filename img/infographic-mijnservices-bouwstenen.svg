@@ -1,0 +1,153 @@
+<svg width="900" height="524" viewBox="0 0 900 524" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="1" stdDeviation="4" flood-color="#0F2D5E" flood-opacity="0.09"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="524" fill="#EEF4FB"/>
+
+  <!-- Header -->
+  <rect width="900" height="62" fill="#0F2D5E"/>
+  <text x="450" y="36" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.2">MijnServices-bouwstenen</text>
+  <text x="450" y="53" font-size="12" fill="#93C5FD" text-anchor="middle">Overzicht functionaliteiten en rijpheidsstatus</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- SECTIE 1: Out-of-the-box                               -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="18" y="72" width="864" height="28" fill="#0E7B48" rx="6"/>
+  <rect x="18" y="84" width="864" height="16" fill="#0E7B48"/>
+  <text x="32" y="91" font-size="11.5" font-weight="700" fill="white" letter-spacing="0.5">OUT-OF-THE-BOX</text>
+  <text x="868" y="91" font-size="11" fill="#A7F3D0" text-anchor="end">Werkt zonder maatwerk</text>
+
+  <!-- Card positions: margin=18, gap=12, w=163 -->
+  <!-- MijnZaken (x=18) -->
+  <rect x="18" y="106" width="163" height="102" fill="white" rx="8" filter="url(#shadow)"/>
+  <rect x="18" y="106" width="163" height="4" fill="#0E7B48" rx="8"/>
+  <rect x="18" y="108" width="163" height="4" fill="#0E7B48"/>
+  <text x="99" y="131" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">MijnZaken</text>
+  <text x="99" y="149" font-size="10" fill="#64748B" text-anchor="middle">Zaken API · Catalogi API</text>
+  <text x="99" y="162" font-size="10" fill="#64748B" text-anchor="middle">Documenten API</text>
+  <rect x="28" y="173" width="143" height="22" fill="#DCFCE7" rx="4"/>
+  <text x="99" y="188" font-size="10.5" font-weight="600" fill="#0E7B48" text-anchor="middle">Standaard</text>
+
+  <!-- MijnTaken (x=193) -->
+  <rect x="193" y="106" width="163" height="102" fill="white" rx="8" filter="url(#shadow)"/>
+  <rect x="193" y="106" width="163" height="4" fill="#1E6BB8" rx="8"/>
+  <rect x="193" y="108" width="163" height="4" fill="#1E6BB8"/>
+  <text x="274" y="131" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">MijnTaken</text>
+  <text x="274" y="149" font-size="10" fill="#64748B" text-anchor="middle">Objecten API</text>
+  <text x="274" y="162" font-size="10" fill="#64748B" text-anchor="middle">Objecttypen API</text>
+  <rect x="203" y="173" width="143" height="22" fill="#DBEAFE" rx="4"/>
+  <text x="274" y="188" font-size="10.5" font-weight="600" fill="#1E6BB8" text-anchor="middle">Candidate</text>
+
+  <!-- MijnBerichten (x=368) -->
+  <rect x="368" y="106" width="163" height="102" fill="white" rx="8" filter="url(#shadow)"/>
+  <rect x="368" y="106" width="163" height="4" fill="#1E6BB8" rx="8"/>
+  <rect x="368" y="108" width="163" height="4" fill="#1E6BB8"/>
+  <text x="450" y="131" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">MijnBerichten</text>
+  <text x="450" y="149" font-size="10" fill="#64748B" text-anchor="middle">Klantinteracties API</text>
+  <text x="450" y="162" font-size="10" fill="#64748B" text-anchor="middle">Wmebv-bouwsteen</text>
+  <rect x="378" y="173" width="143" height="22" fill="#DBEAFE" rx="4"/>
+  <text x="450" y="188" font-size="10.5" font-weight="600" fill="#1E6BB8" text-anchor="middle">Candidate</text>
+
+  <!-- MijnProfiel (x=543) -->
+  <rect x="543" y="106" width="163" height="102" fill="white" rx="8" filter="url(#shadow)"/>
+  <rect x="543" y="106" width="163" height="4" fill="#1E6BB8" rx="8"/>
+  <rect x="543" y="108" width="163" height="4" fill="#1E6BB8"/>
+  <text x="624" y="131" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">MijnProfiel</text>
+  <text x="624" y="149" font-size="10" fill="#64748B" text-anchor="middle">Contactgegevens API</text>
+  <text x="624" y="162" font-size="10" fill="#64748B" text-anchor="middle">Open Klant v2</text>
+  <rect x="553" y="173" width="143" height="22" fill="#DBEAFE" rx="4"/>
+  <text x="624" y="188" font-size="10.5" font-weight="600" fill="#1E6BB8" text-anchor="middle">Candidate</text>
+
+  <!-- MijnContactmomenten (x=718) -->
+  <rect x="718" y="106" width="163" height="102" fill="white" rx="8" filter="url(#shadow)"/>
+  <rect x="718" y="106" width="163" height="4" fill="#1E6BB8" rx="8"/>
+  <rect x="718" y="108" width="163" height="4" fill="#1E6BB8"/>
+  <text x="800" y="127" font-size="13" font-weight="700" fill="#0F2D5E" text-anchor="middle">Mijn</text>
+  <text x="800" y="143" font-size="13" font-weight="700" fill="#0F2D5E" text-anchor="middle">Contactmomenten</text>
+  <text x="800" y="162" font-size="10" fill="#64748B" text-anchor="middle">Klantinteracties API</text>
+  <rect x="728" y="173" width="143" height="22" fill="#DBEAFE" rx="4"/>
+  <text x="800" y="188" font-size="10.5" font-weight="600" fill="#1E6BB8" text-anchor="middle">Candidate</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- SECTIE 2: Met maatwerk                                  -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="18" y="220" width="864" height="28" fill="#C05621" rx="6"/>
+  <rect x="18" y="232" width="864" height="16" fill="#C05621"/>
+  <text x="32" y="239" font-size="11.5" font-weight="700" fill="white" letter-spacing="0.5">MET MAATWERK</text>
+  <text x="868" y="239" font-size="11" fill="#FED7AA" text-anchor="end">Configuratie vereist</text>
+
+  <!-- MijnProducten (x=18) -->
+  <rect x="18" y="254" width="163" height="102" fill="white" rx="8" filter="url(#shadow)"/>
+  <rect x="18" y="254" width="163" height="4" fill="#C05621" rx="8"/>
+  <rect x="18" y="256" width="163" height="4" fill="#C05621"/>
+  <text x="99" y="279" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">MijnProducten</text>
+  <text x="99" y="297" font-size="10" fill="#64748B" text-anchor="middle">Objecten API</text>
+  <text x="99" y="310" font-size="10" fill="#64748B" text-anchor="middle">Open Product</text>
+  <rect x="28" y="321" width="143" height="22" fill="#FFEDD5" rx="4"/>
+  <text x="99" y="336" font-size="10.5" font-weight="600" fill="#C05621" text-anchor="middle">Community</text>
+
+  <!-- MijnActies (x=193) -->
+  <rect x="193" y="254" width="163" height="102" fill="white" rx="8" filter="url(#shadow)"/>
+  <rect x="193" y="254" width="163" height="4" fill="#C05621" rx="8"/>
+  <rect x="193" y="256" width="163" height="4" fill="#C05621"/>
+  <text x="274" y="279" font-size="14" font-weight="700" fill="#0F2D5E" text-anchor="middle">MijnActies</text>
+  <text x="274" y="297" font-size="10" fill="#64748B" text-anchor="middle">Notificatielogica</text>
+  <text x="274" y="310" font-size="10" fill="#64748B" text-anchor="middle">in ontwikkeling</text>
+  <rect x="203" y="321" width="143" height="22" fill="#FFEDD5" rx="4"/>
+  <text x="274" y="336" font-size="10.5" font-weight="600" fill="#C05621" text-anchor="middle">Community</text>
+
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <!-- SECTIE 3: Nog niet geïmplementeerd                      -->
+  <!-- ═══════════════════════════════════════════════════════ -->
+  <rect x="18" y="368" width="864" height="28" fill="#475569" rx="6"/>
+  <rect x="18" y="380" width="864" height="16" fill="#475569"/>
+  <text x="32" y="387" font-size="11.5" font-weight="700" fill="white" letter-spacing="0.5">NOG NIET GEÏMPLEMENTEERD</text>
+  <text x="868" y="387" font-size="11" fill="#CBD5E1" text-anchor="end">Standaard in ontwikkeling bij VNG</text>
+
+  <!-- MijnPlan (x=18) -->
+  <rect x="18" y="402" width="163" height="96" fill="white" rx="8" filter="url(#shadow)" opacity="0.8"/>
+  <rect x="18" y="402" width="163" height="4" fill="#94A3B8" rx="8"/>
+  <rect x="18" y="404" width="163" height="4" fill="#94A3B8"/>
+  <text x="99" y="427" font-size="14" font-weight="700" fill="#64748B" text-anchor="middle">MijnPlan</text>
+  <text x="99" y="445" font-size="10" fill="#94A3B8" text-anchor="middle">VNG-roadmap</text>
+  <rect x="28" y="462" width="143" height="22" fill="#F1F5F9" rx="4"/>
+  <text x="99" y="477" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">Nog niet vastgesteld</text>
+
+  <!-- MijnGesprek (x=193) -->
+  <rect x="193" y="402" width="163" height="96" fill="white" rx="8" filter="url(#shadow)" opacity="0.8"/>
+  <rect x="193" y="402" width="163" height="4" fill="#94A3B8" rx="8"/>
+  <rect x="193" y="404" width="163" height="4" fill="#94A3B8"/>
+  <text x="274" y="427" font-size="14" font-weight="700" fill="#64748B" text-anchor="middle">MijnGesprek</text>
+  <text x="274" y="445" font-size="10" fill="#94A3B8" text-anchor="middle">VNG-roadmap</text>
+  <rect x="203" y="462" width="143" height="22" fill="#F1F5F9" rx="4"/>
+  <text x="274" y="477" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">Nog niet vastgesteld</text>
+
+  <!-- MijnAgenda (x=368) -->
+  <rect x="368" y="402" width="163" height="96" fill="white" rx="8" filter="url(#shadow)" opacity="0.8"/>
+  <rect x="368" y="402" width="163" height="4" fill="#94A3B8" rx="8"/>
+  <rect x="368" y="404" width="163" height="4" fill="#94A3B8"/>
+  <text x="450" y="427" font-size="14" font-weight="700" fill="#64748B" text-anchor="middle">MijnAgenda</text>
+  <text x="450" y="445" font-size="10" fill="#94A3B8" text-anchor="middle">VNG-roadmap</text>
+  <rect x="378" y="462" width="143" height="22" fill="#F1F5F9" rx="4"/>
+  <text x="450" y="477" font-size="10.5" font-weight="600" fill="#64748B" text-anchor="middle">Nog niet vastgesteld</text>
+
+  <!-- Legend -->
+  <rect x="543" y="410" width="339" height="80" fill="white" rx="8" filter="url(#shadow)"/>
+  <text x="559" y="428" font-size="11" font-weight="700" fill="#334155">Rijpheidsstatus</text>
+  <!-- Standaard -->
+  <rect x="559" y="436" width="56" height="16" fill="#DCFCE7" rx="3"/>
+  <text x="587" y="448" font-size="9.5" font-weight="600" fill="#0E7B48" text-anchor="middle">Standaard</text>
+  <text x="622" y="448" font-size="10" fill="#64748B">Formeel vastgesteld</text>
+  <!-- Candidate -->
+  <rect x="559" y="458" width="56" height="16" fill="#DBEAFE" rx="3"/>
+  <text x="587" y="470" font-size="9.5" font-weight="600" fill="#1E6BB8" text-anchor="middle">Candidate</text>
+  <text x="622" y="470" font-size="10" fill="#64748B">In standaardisatieproces</text>
+  <!-- Community -->
+  <rect x="559" y="480" width="56" height="16" fill="#FFEDD5" rx="3"/>
+  <text x="587" y="492" font-size="9.5" font-weight="600" fill="#C05621" text-anchor="middle">Community</text>
+  <text x="622" y="492" font-size="10" fill="#64748B">Niet-formele standaard</text>
+</svg>

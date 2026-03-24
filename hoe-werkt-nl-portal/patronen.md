@@ -10,6 +10,8 @@ NL Portal implementeert technische interactiepatronen die zijn vastgelegd door h
 
 Het **Externe Klanttaak**-patroon beschrijft hoe taken worden aangemaakt door het zaakafhandelingssysteem en beschikbaar worden gesteld aan de burger via het portaal.
 
+![Externe Klanttaak flow](../img/infographic-klanttaak-flow.svg)
+
 NL Portal implementeert dit patroon als **Taak V2**. Taken worden opgeslagen als objecten in de Objecten API en opgehaald door het portaal.
 
 ### Workflow
@@ -44,7 +46,7 @@ NL Portal ondersteunt drie kanalen:
 - Doorstuur naar **MijnOverheid BerichtenBox** (voor DigiD-gebruikers)
 - **Fysieke post** als terugvaloptie
 
-**Wmebv-relatie**: Het Berichten-patroon is de technische invulling van de wettelijke berichtenplicht (Wmebv, 1 januari 2026).
+**Wmebv-relatie**: Het Berichten-patroon draagt bij aan de invulling van de wettelijke berichtenplicht (Wmebv, 1 januari 2026). MijnBerichten is één van de aanbevolen bouwstenen — volledige Wmebv-compliance vereist ook OMC Notify voor notificaties.
 
 **Technische beperking**: Per Logius-standaarden mag de berichttekst alleen platte tekst bevatten (URLs en regeleindes; geen HTML-opmaak).
 

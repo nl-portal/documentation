@@ -2,6 +2,8 @@
 
 Per bouwsteen een beschrijving van wat de burger ziet, welke backoffice-koppeling vereist is, en de rijpheidsstatus van de onderliggende standaard.
 
+![MijnServices-bouwstenen overzicht](../img/infographic-mijnservices-bouwstenen.svg)
+
 ---
 
 ## Out-of-the-box (zonder maatwerk)
@@ -48,7 +50,7 @@ Officiële berichten van de gemeente, zoals beschikkingen, bevestigingen en besl
 
 **Referentie-implementatie**: [Open Klant](https://github.com/maykinmedia/open-klant) (implementatie van de Klantinteracties API en Contactgegevens API door Maykin Media)
 
-**Wettelijke context**: MijnBerichten is de door VNG aanbevolen invulling van de **Wmebv**-verplichting (in werking per 1 januari 2026).
+**Wettelijke context**: MijnBerichten is een van de bouwstenen die VNG aanbeveelt voor **Wmebv**-compliance (in werking per 1 januari 2026), naast OMC Notify. NL Portal draagt met MijnBerichten bij aan de invulling van een deel van de Wmebv-vereisten.
 
 **Rijpheid standaard**: Candidate — actief in standaardisatieproces bij VNG; Rijksoverheid betrokken
 

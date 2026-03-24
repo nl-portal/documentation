@@ -1,0 +1,150 @@
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <filter id="shadow" x="-4%" y="-4%" width="108%" height="108%">
+      <feDropShadow dx="0" dy="2" stdDeviation="5" flood-color="#0F2D5E" flood-opacity="0.10"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#64748B"/>
+    </marker>
+    <marker id="arrow-white" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L8,3 z" fill="#93C5FD"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="500" fill="#EEF4FB"/>
+
+  <!-- Header -->
+  <rect width="900" height="62" fill="#0F2D5E"/>
+  <text x="450" y="36" font-size="20" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="-0.2">Architectuur en integraties</text>
+  <text x="450" y="53" font-size="12" fill="#93C5FD" text-anchor="middle">NL Portal als interactielaag (Common Ground Laag 5)</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- LEFT: Gebruikers (x=18, w=168)                 -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="18" y="78" width="168" height="296" fill="white" rx="10" filter="url(#shadow)"/>
+  <rect x="18" y="78" width="168" height="32" fill="#334155" rx="10"/>
+  <rect x="18" y="96" width="168" height="14" fill="#334155"/>
+  <text x="102" y="99" font-size="12" font-weight="700" fill="white" text-anchor="middle">Gebruikers</text>
+
+  <!-- Burger sub-block -->
+  <rect x="28" y="122" width="148" height="108" fill="#F8FAFC" rx="8"/>
+  <text x="102" y="142" font-size="28" text-anchor="middle">👤</text>
+  <text x="102" y="166" font-size="13" font-weight="700" fill="#0F2D5E" text-anchor="middle">Burger</text>
+  <text x="102" y="183" font-size="10.5" fill="#64748B" text-anchor="middle">DigiD inloggen</text>
+  <rect x="38" y="196" width="128" height="20" fill="#EFF6FF" rx="4"/>
+  <text x="102" y="210" font-size="10" font-weight="600" fill="#1E6BB8" text-anchor="middle">BSN via DigiD</text>
+
+  <!-- Ondernemer sub-block -->
+  <rect x="28" y="244" width="148" height="108" fill="#F8FAFC" rx="8"/>
+  <text x="102" y="264" font-size="28" text-anchor="middle">🏢</text>
+  <text x="102" y="288" font-size="13" font-weight="700" fill="#0F2D5E" text-anchor="middle">Ondernemer</text>
+  <text x="102" y="305" font-size="10.5" fill="#64748B" text-anchor="middle">eHerkenning inloggen</text>
+  <rect x="38" y="318" width="128" height="20" fill="#F0FDF4" rx="4"/>
+  <text x="102" y="332" font-size="10" font-weight="600" fill="#0E7B48" text-anchor="middle">KvK via eHerkenning</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- ARROW: Gebruikers → NL Portal                  -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <line x1="188" y1="226" x2="214" y2="226" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="214" y1="226" x2="188" y2="226" stroke="#64748B" stroke-width="2" marker-end="url(#arrow)" transform="rotate(180 201 226)"/>
+  <!-- bidirectional: two separate arrows -->
+  <line x1="192" y1="221" x2="210" y2="221" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="210" y1="231" x2="192" y2="231" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrow)" transform="rotate(180 201 231)"/>
+  <text x="201" y="215" font-size="9" fill="#64748B" text-anchor="middle">HTTPS</text>
+  <text x="201" y="244" font-size="9" fill="#64748B" text-anchor="middle">OIDC</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- CENTER: NL Portal (x=218, w=464)               -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="218" y="78" width="464" height="296" fill="white" rx="10" filter="url(#shadow)" stroke="#1E6BB8" stroke-width="2"/>
+  <!-- header -->
+  <rect x="218" y="78" width="464" height="38" fill="#0F2D5E" rx="10"/>
+  <rect x="218" y="102" width="464" height="14" fill="#0F2D5E"/>
+  <text x="450" y="103" font-size="16" font-weight="700" fill="white" text-anchor="middle">NL Portal</text>
+
+  <!-- Frontend sub-block -->
+  <rect x="228" y="126" width="200" height="234" fill="#F0F5FF" rx="8"/>
+  <text x="328" y="150" font-size="12" font-weight="700" fill="#1E6BB8" text-anchor="middle">Frontend</text>
+  <line x1="238" y1="158" x2="418" y2="158" stroke="#DBEAFE" stroke-width="1"/>
+  <text x="328" y="174" font-size="10.5" fill="#334155" text-anchor="middle">React 19 · TypeScript</text>
+  <text x="328" y="190" font-size="10.5" fill="#334155" text-anchor="middle">Vite · Apollo Client</text>
+  <text x="328" y="206" font-size="10.5" fill="#334155" text-anchor="middle">NL Design System</text>
+  <text x="328" y="222" font-size="10.5" fill="#334155" text-anchor="middle">React Router 7</text>
+  <!-- Pages label -->
+  <rect x="244" y="234" width="168" height="16" fill="#DBEAFE" rx="3"/>
+  <text x="328" y="246" font-size="9.5" font-weight="600" fill="#1E6BB8" text-anchor="middle">MijnZaken · MijnTaken · MijnBerichten</text>
+  <rect x="244" y="254" width="168" height="16" fill="#DBEAFE" rx="3"/>
+  <text x="328" y="266" font-size="9.5" font-weight="600" fill="#1E6BB8" text-anchor="middle">MijnProfiel · MijnContactmomenten</text>
+
+  <!-- GraphQL bridge -->
+  <rect x="432" y="126" width="44" height="234" fill="#EDE9FE" rx="6"/>
+  <text x="454" y="192" font-size="9.5" font-weight="700" fill="#6D28D9" text-anchor="middle" transform="rotate(-90 454 226)">GraphQL API</text>
+  <!-- arrow indicators -->
+  <text x="454" y="210" font-size="14" fill="#6D28D9" text-anchor="middle">⇄</text>
+
+  <!-- Backend sub-block -->
+  <rect x="480" y="126" width="192" height="234" fill="#FDF4FF" rx="8"/>
+  <text x="576" y="150" font-size="12" font-weight="700" fill="#6D28D9" text-anchor="middle">Backend</text>
+  <line x1="490" y1="158" x2="662" y2="158" stroke="#EDE9FE" stroke-width="1"/>
+  <text x="576" y="174" font-size="10.5" fill="#334155" text-anchor="middle">Spring Boot 3.5 · Kotlin</text>
+  <text x="576" y="190" font-size="10.5" fill="#334155" text-anchor="middle">JDK 21</text>
+  <text x="576" y="206" font-size="10.5" fill="#334155" text-anchor="middle">GraphQL (Spring)</text>
+  <text x="576" y="222" font-size="10.5" fill="#334155" text-anchor="middle">ZGW API-clients</text>
+  <!-- Modules label -->
+  <rect x="490" y="234" width="172" height="16" fill="#EDE9FE" rx="3"/>
+  <text x="576" y="246" font-size="9.5" font-weight="600" fill="#6D28D9" text-anchor="middle">zaken · taken · berichten · profiel</text>
+  <rect x="490" y="254" width="172" height="16" fill="#EDE9FE" rx="3"/>
+  <text x="576" y="266" font-size="9.5" font-weight="600" fill="#6D28D9" text-anchor="middle">besluiten · producten · betaling</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- ARROW: NL Portal → Backoffice                  -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <line x1="686" y1="221" x2="706" y2="221" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="706" y1="231" x2="686" y2="231" stroke="#64748B" stroke-width="1.5" marker-end="url(#arrow)" transform="rotate(180 696 231)"/>
+  <text x="696" y="215" font-size="9" fill="#64748B" text-anchor="middle">REST</text>
+  <text x="696" y="244" font-size="9" fill="#64748B" text-anchor="middle">APIs</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- RIGHT: Backoffice (x=714, w=168)               -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="714" y="78" width="168" height="296" fill="white" rx="10" filter="url(#shadow)"/>
+  <rect x="714" y="78" width="168" height="32" fill="#334155" rx="10"/>
+  <rect x="714" y="96" width="168" height="14" fill="#334155"/>
+  <text x="798" y="99" font-size="12" font-weight="700" fill="white" text-anchor="middle">Backoffice APIs</text>
+
+  <!-- Service rows -->
+  <rect x="724" y="120" width="148" height="44" fill="#F8FAFC" rx="6"/>
+  <text x="798" y="138" font-size="11.5" font-weight="700" fill="#0F2D5E" text-anchor="middle">Open Zaak</text>
+  <text x="798" y="154" font-size="9.5" fill="#64748B" text-anchor="middle">ZGW-suite · MijnZaken</text>
+
+  <rect x="724" y="170" width="148" height="44" fill="#F8FAFC" rx="6"/>
+  <text x="798" y="188" font-size="11.5" font-weight="700" fill="#0F2D5E" text-anchor="middle">Open Klant v2</text>
+  <text x="798" y="204" font-size="9.5" fill="#64748B" text-anchor="middle">Berichten · Profiel</text>
+
+  <rect x="724" y="220" width="148" height="44" fill="#F8FAFC" rx="6"/>
+  <text x="798" y="238" font-size="11.5" font-weight="700" fill="#0F2D5E" text-anchor="middle">Objecten API</text>
+  <text x="798" y="254" font-size="9.5" fill="#64748B" text-anchor="middle">MijnTaken · MijnProducten</text>
+
+  <rect x="724" y="270" width="148" height="40" fill="#F8FAFC" rx="6"/>
+  <text x="798" y="287" font-size="11.5" font-weight="700" fill="#0F2D5E" text-anchor="middle">Haalcentraal BRP</text>
+  <text x="798" y="301" font-size="9.5" fill="#64748B" text-anchor="middle">Persoonsgegevens</text>
+
+  <rect x="724" y="316" width="148" height="40" fill="#F8FAFC" rx="6"/>
+  <text x="798" y="333" font-size="11.5" font-weight="700" fill="#0F2D5E" text-anchor="middle">Open Notificaties</text>
+  <text x="798" y="349" font-size="9.5" fill="#64748B" text-anchor="middle">Event-routing</text>
+
+  <!-- ═══════════════════════════════════════════════ -->
+  <!-- BOTTOM: Authenticatie                          -->
+  <!-- ═══════════════════════════════════════════════ -->
+  <rect x="218" y="386" width="464" height="54" fill="#0F2D5E" rx="8"/>
+  <text x="450" y="407" font-size="10.5" font-weight="700" fill="#93C5FD" text-anchor="middle" letter-spacing="0.5">AUTHENTICATIE</text>
+  <text x="450" y="424" font-size="12" fill="white" text-anchor="middle">Keycloak (OIDC) · DigiD · eHerkenning</text>
+
+  <!-- Bottom arrow down from center block to auth bar -->
+  <line x1="450" y1="374" x2="450" y2="386" stroke="#1E6BB8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="456" y="382" font-size="9" fill="#64748B">OIDC</text>
+
+  <!-- Tagline -->
+  <text x="450" y="460" font-size="11" fill="#475569" text-anchor="middle" font-style="italic">Data wordt bevraagd bij de bron — NL Portal slaat geen gegevens lokaal op (Common Ground principe)</text>
+</svg>

@@ -2,6 +2,8 @@
 
 NL Portal communiceert met externe systemen via gestandaardiseerde VNG API-standaarden. De onderstaande tabel geeft een overzicht van alle integraties: welke standaard gebruikt wordt, waarvoor, en welke referentie-implementatie er bestaat.
 
+![Architectuur en integraties](../img/infographic-architectuur.svg)
+
 ---
 
 ## Overzicht
