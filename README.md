@@ -45,3 +45,4 @@ NL Portal wordt gebruikt en mede-ontwikkeld door Nederlandse gemeenten en levera
 | | | | |
 |:-:|:-:|:-:|:-:|
 | <img src=".gitbook/assets/logo-denhaag.jpg" height="60" alt="Gemeente Den Haag"> | <img src=".gitbook/assets/logo-utrecht.svg" height="60" alt="Gemeente Utrecht"> | <img src=".gitbook/assets/logo-amsterdam.svg" height="60" alt="Gemeente Amsterdam"> | <img src=".gitbook/assets/logo-pink.jpg" height="60" alt="PinkRoccade"> |
+
