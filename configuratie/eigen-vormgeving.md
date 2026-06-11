@@ -7,8 +7,9 @@ zoals kleuren en lettertypes.
 
 ![eigen-vormgeving](img/eigen-vormgeving.png)_Drie verschillende klantportalen met verschillende vormgeving door middel van design tokens_
 
-Om je eigen vormgeving toe te passen ga je naar je eigen frontend template repository. In deze\
-repository ga je naar het bestand /src/styles/nl-portal-design-tokens.css. Hier kun je eigen\
+Om je eigen vormgeving toe te passen ga je naar je eigen fork van de\
+[NL Portal App](https://github.com/nl-portal/nl-portal-app) repository. In deze repository ga je naar het bestand\
+frontend/src/styles/nl-portal-design-tokens.css. Hier kun je eigen\
 designtokens toevoegen die de standaard waardes overschrijven.
 
 Een voorbeeld van een design token is:
@@ -29,4 +30,5 @@ de achtergrondkleur van de knop wordt ingesteld met het designtoken\
 nlportal-current-page-indicator-background-color.
 
 Door dit token op te nemen in het eigen styles bestand en de waarde te veranderen kun je de\
-kleur aanpassen. Een voorbeeldbestand is te vinden op de[ NL Portal github](https://github.com/nl-portal/nl-portal-frontend-template/blob/master/src/styles/nl-portal-design-tokens.css).
+kleur aanpassen. Een voorbeeldbestand is te vinden in de [NL Portal App](https://github.com/nl-portal/nl-portal-app)\
+repository: frontend/src/styles/nl-portal-design-tokens.css.
