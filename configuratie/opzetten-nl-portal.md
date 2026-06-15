@@ -47,9 +47,27 @@ De NL Portal is daarna bereikbaar op `http://localhost:3000`. Je kunt inloggen m
 
 De volledige tabel met services, poorten en profielen vind je in de README.md van de NL Portal App repository.
 
-### Route 2: Fork de repository en bouw je eigen images
+### Route 2: Configureren via het Configuration Panel
 
-Wil je een eigen portaal maken, bijvoorbeeld met een [eigen vormgeving](eigen-vormgeving.md) of aangepaste features? Fork dan de [NL Portal App](https://github.com/nl-portal/nl-portal-app) repository en bouw je eigen images:
+De aanbevolen manier om de NL Portal aan te passen is via het [Configuration Panel](configuration-panel.md). Hiermee kun je zonder code aan te passen:
+
+* Alle backend modules configureren (ZGW APIs, HaalCentraal, OpenKlant, etc.)
+* Een eigen logo uploaden
+* De huisstijl aanpassen via design tokens
+
+Start het Configuration Panel mee in de demo-omgeving:
+
+```shell
+docker compose --profile remote --profile zgw --profile haalcentraal --profile config up -d
+```
+
+Het Configuration Panel is bereikbaar op `http://localhost:3001` met gebruikersnaam **admin** en wachtwoord **admin**.
+
+Zie de [Configuration Panel](configuration-panel.md) pagina voor uitgebreide documentatie over het aansluiten van een bestaande NL Portal instantie.
+
+### Route 3: Fork de repository (geavanceerd)
+
+Wil je de NL Portal uitbreiden met eigen componenten of functionaliteit die niet via configuratie mogelijk is? Fork dan de [NL Portal App](https://github.com/nl-portal/nl-portal-app) repository en bouw je eigen images:
 
 1. Fork de repository op GitHub en clone je fork lokaal.
 2. Pas de frontend en/of backend aan naar wens.
@@ -61,22 +79,22 @@ docker compose --profile local --profile zgw --profile haalcentraal up -d --buil
 
 Ook nu is de NL Portal bereikbaar op `http://localhost:3000` met dezelfde testgebruikers als hierboven.
 
-### Configuratie aanpassen
+**Wanneer forken?** Alleen nodig voor:
+* Eigen frontend componenten of pagina's
+* Eigen backend plugins of modules
+* Aanpassingen aan de authenticatiemethoden (zie [Keycloak configuratie](keycloak.md))
 
-De NL Portal app images worden volledig geconfigureerd via environment variabelen. De volledige referentie met inline documentatie vind je in de NL Portal App repository, in de bestanden `imports/backend.env` en `imports/frontend.env`. Zie de [Deployment guide](deployment-guide.md) voor de naamconventie, de module-configuratie en het deployen met Helm.
+Voor configuratie van API-koppelingen en huisstijl is forken niet nodig — gebruik hiervoor het [Configuration Panel](configuration-panel.md).
 
-Als alternatief voor environment variabelen kun je het Configuration Panel gebruiken om de backend tijdens runtime te configureren. Start hiervoor het `config` profiel mee:
+### Configuratie via environment variabelen
 
-```shell
-docker compose --profile config up -d
-```
-
-Het Configuration Panel is bereikbaar op `http://localhost:3001` met gebruikersnaam **admin** en wachtwoord **admin**.
+De NL Portal app images kunnen ook volledig geconfigureerd worden via environment variabelen. De volledige referentie met inline documentatie vind je in de NL Portal App repository, in de bestanden `imports/backend.env` en `imports/frontend.env`. Zie de [Deployment guide](deployment-guide.md) voor de naamconventie, de module-configuratie en het deployen met Helm.
 
 ### Vervolgstappen
 
 Nu je eerste NL Portal draait kun je verder met:
 
-* [Eigen vormgeving](eigen-vormgeving.md) — pas de huisstijl aan met design tokens.
+* [Configuration Panel](configuration-panel.md) — configureer API-koppelingen en theming via een UI.
+* [Eigen vormgeving](eigen-vormgeving.md) — meer informatie over design tokens en huisstijl.
 * [Deployment guide](deployment-guide.md) — deploy de NL Portal naar je eigen omgeving (Azure, AWS of Kubernetes).
 * [Keycloak configuratie](keycloak.md) — sluit de NL Portal aan op je eigen Keycloak.
