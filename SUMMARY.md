@@ -58,13 +58,16 @@
         * [3.0.1](release-notes/3.0.x/backend-libraries/3.0.1.md)
         * [3.0.2](release-notes/3.0.x/backend-libraries/3.0.2.md)
         * [3.0.3](release-notes/3.0.x/backend-libraries/3.0.3.md)
+        * [3.0.4](release-notes/3.0.x/backend-libraries/3.0.4.md)
     * Frontend Libraries
         * [3.0.0](release-notes/3.0.x/frontend-libraries/3.0.0.md)
         * [3.0.1](release-notes/3.0.x/frontend-libraries/3.0.1.md)
         * [3.0.2](release-notes/3.0.x/frontend-libraries/3.0.2.md)
+        * [3.0.3](release-notes/3.0.x/frontend-libraries/3.0.3.md)
     * App
         * [3.0.0](release-notes/3.0.x/app/3.0.0.md)
         * [3.0.3_3.0.2-1](release-notes/3.0.x/app/3.0.3_3.0.2-1.md)
+        * [3.0.4_3.0.3-1](release-notes/3.0.x/app/3.0.4_3.0.3-1.md)
 
 ## Contributing to NL portal
 
