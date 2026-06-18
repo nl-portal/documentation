@@ -22,6 +22,7 @@
 ## Configuratie
 
 * [Opzetten NL Portal](configuratie/opzetten-nl-portal.md)
+* [Module Dependency Guide](configuratie/module-dependency-guide.md)
 * [Configuration Panel](configuratie/configuration-panel.md)
 * [Eigen vormgeving](configuratie/eigen-vormgeving.md)
 * [Connectiviteit](configuratie/connectiviteit.md)
