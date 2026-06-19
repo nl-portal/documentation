@@ -27,7 +27,7 @@ In het realm van de NL Portal zijn drie clients nodig:
 | ------------------------ | ------------------------------------------ | --------------------------------------------------------------------- |
 | `nl-portal`              | public, standard flow                      | Login van de frontend (SPA). Draagt de `middel` mapper.               |
 | `nl-portal-m2m`          | confidential, service accounts, met secret | Voert de token exchange uit namens de backend.                        |
-| `nl-portal-token-exchange` | public, geen flows                       | Doelclient (audience) van de token exchange. Draagt de `aanvrager.bsn`/`aanvrager.kvk` mappers. |
+| `nl-portal-token-exchange` | public, geen flows                       | Doelclient (audience) van de token exchange. Bevat de `aanvrager.bsn`/`aanvrager.kvk` mappers. |
 
 De clients koppel je aan de backend via de volgende environment variabelen van de app image (zie ook de [Deployment guide](deployment-guide.md)):
 
