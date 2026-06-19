@@ -22,10 +22,12 @@
 ## Configuratie
 
 * [Opzetten NL Portal](configuratie/opzetten-nl-portal.md)
+* [Module Dependency Guide](configuratie/module-dependency-guide.md)
+* [Configuration Panel](configuratie/configuration-panel.md)
 * [Eigen vormgeving](configuratie/eigen-vormgeving.md)
 * [Connectiviteit](configuratie/connectiviteit.md)
 * [Deployment guide](configuratie/deployment-guide.md)
-* [Token exchange](configuratie/tokenexchange.md)
+* [Keycloak configuratie](configuratie/keycloak.md)
 
 ## Support en resources
 
@@ -51,8 +53,22 @@
     * [1.6.0](release-notes/1.x.x/1.6.0/release-notes.md)
 * 2.x.x
     * [2.0.0](release-notes/2.x.x/2.0.0/release-notes.md)
-* 3.x.x
-    * [3.0.0](release-notes/3.x.x/3.0.0/release-notes.md)
+* 3.0.x
+    * Backend Libraries
+        * [3.0.0](release-notes/3.0.x/backend-libraries/3.0.0.md)
+        * [3.0.1](release-notes/3.0.x/backend-libraries/3.0.1.md)
+        * [3.0.2](release-notes/3.0.x/backend-libraries/3.0.2.md)
+        * [3.0.3](release-notes/3.0.x/backend-libraries/3.0.3.md)
+        * [3.0.4](release-notes/3.0.x/backend-libraries/3.0.4.md)
+    * Frontend Libraries
+        * [3.0.0](release-notes/3.0.x/frontend-libraries/3.0.0.md)
+        * [3.0.1](release-notes/3.0.x/frontend-libraries/3.0.1.md)
+        * [3.0.2](release-notes/3.0.x/frontend-libraries/3.0.2.md)
+        * [3.0.3](release-notes/3.0.x/frontend-libraries/3.0.3.md)
+    * App
+        * [3.0.0](release-notes/3.0.x/app/3.0.0.md)
+        * [3.0.3_3.0.2-1](release-notes/3.0.x/app/3.0.3_3.0.2-1.md)
+        * [3.0.4_3.0.3-1](release-notes/3.0.x/app/3.0.4_3.0.3-1.md)
 
 ## Contributing to NL portal
 

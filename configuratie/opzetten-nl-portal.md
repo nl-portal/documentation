@@ -2,52 +2,99 @@
 
 ### Wat heb je nodig
 
-Om de NL Portal op te zetten is er enige kennis van technische tools en de CLI (command-line interface) vereist.
+Om de NL Portal lokaal op te zetten is enige basiskennis van de CLI (command-line interface) vereist. Daarnaast heb je de volgende software nodig:
+
+* [Docker Desktop](https://www.docker.com/products/docker-desktop/) — de enige harde vereiste om de NL Portal demo te draaien.
+* Voor het maken van een eigen portaal: [Git](https://git-scm.com/) en een [GitHub](https://github.com/) account. Het bouwen van de applicatie gebeurt via Docker, een lokale JDK- of Node-installatie is niet nodig.
 
 #### Waar kan ik de code vinden
 
 Alle code en informatie is opensource en kan gevonden worden op [github.com](https://github.com/nl-portal). De NL Portal is opgesplitst in meerdere repositories. Hieronder een korte beschrijving van elk.
 
-| Repository                                                                      | Beschrijving                                                                                                     |
-| ------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Documentatie](https://github.com/nl-portal/documentation)                      | Documentatie over de NL Portal                                                                                   |
-| [Frontend Template](https://github.com/nl-portal/nl-portal-frontend-template)   | Template om een nieuwe NL Portal app frontend te starten, de perfecte basis om mee beginnen                      |
-| [Backend Template](https://github.com/nl-portal/nl-portal-backend-template)     | Template om een nieuwe NL Portal app backend te starten                                                          |
-| [Frontend Libraries](https://github.com/nl-portal/nl-portal-frontend-libraries) | Libraries voor de frontend die gebruikt worden in de frontend template                                           |
-| [Backend Libraries](https://github.com/nl-portal/nl-portal-backend-libraries)   | Libraries voor de backend die gebruikt worden in de backend template                                             |
-| [Docker Compose](https://github.com/nl-portal/nl-portal-docker-compose)         | Een docker compose setup om het ZGW landschap op te zetten die gebruikt kunnen worden door de NL Portal          |
-| [Helm Charts](https://github.com/nl-portal/helm-charts)                         | Kubernetes Helm charts die het makkelijker maakt om een NL Portal omgeving op te zetten op de kubernetes cluster |
+| Repository                                                                       | Beschrijving                                                                                                                                            |
+| -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Documentatie](https://github.com/nl-portal/documentation)                       | Documentatie over de NL Portal                                                                                                                          |
+| [NL Portal App](https://github.com/nl-portal/nl-portal-app)                      | Referentie-implementatie van de NL Portal backend en frontend apps, inclusief een docker-compose demo-omgeving. Het startpunt voor een eigen portaal.   |
+| [Frontend Libraries](https://github.com/nl-portal/nl-portal-frontend-libraries)  | Libraries voor de frontend die gebruikt worden in de NL Portal App                                                                                      |
+| [Backend Libraries](https://github.com/nl-portal/nl-portal-backend-libraries)    | Libraries voor de backend die gebruikt worden in de NL Portal App                                                                                       |
+| [Docker Compose](https://github.com/nl-portal/nl-portal-docker-compose)          | Een docker compose setup om het ZGW landschap op te zetten                                                                                              |
+| [Helm Charts](https://github.com/nl-portal/helm-charts)                          | Kubernetes Helm charts voor het deployen van een NL Portal omgeving                                                                                     |
 
-Niet al deze repositories zijn nodig om een NL Portal app te maken. Hieronder vind je een stappen plan waarmee je kan beginnen!
+**Let op:** de eerdere frontend en backend template repositories zijn vervangen door de [NL Portal App](https://github.com/nl-portal/nl-portal-app) repository. Gebruik deze als startpunt voor een eigen portaal.
 
-### Je eerste NL Portal app
+### Route 1: De prebuilt images draaien
 
-Om een minimale versie van de NL Portal op te zetten zal je de enkele repositories moeten clonen op je lokale machine en 1-voor-1 uitvoeren.
+De snelste manier om de NL Portal te bekijken is via de kant-en-klare demo-omgeving in de [NL Portal App](https://github.com/nl-portal/nl-portal-app) repository. De docker-compose file in deze repository bevat alles wat nodig is:
 
-**Frontend**
+* De prebuilt NL Portal backend en frontend images (`ghcr.io/nl-portal/nl-portal-app-backend` en `ghcr.io/nl-portal/nl-portal-app-frontend`).
+* De benodigde ZGW componenten (Open Zaak, Objecten API, OpenKlant, OpenProduct) en Haal Centraal mocks, opgedeeld in docker-compose profielen zodat je zelf kiest welke onderdelen je start.
+* Een voorgeconfigureerde Keycloak met token exchange v1 (zie ook de [Keycloak configuratie](keycloak.md) pagina).
 
-De eerste repository is de [Frontend Template](https://github.com/nl-portal/nl-portal-frontend-template) deze geeft een goede start voor eventueele aanpassingen die je wilt doen om de frontend eigen te maken. In het README.md bestand staat wat je moet uitvoeren en benodigd hebt onder het kopje **Development**.
+Clone de repository en start de demo-omgeving met:
 
-**Authenticatie**
+```shell
+docker compose --profile remote --profile zgw --profile haalcentraal up -d
+```
 
-Zodra de frontend draait, zal je merken dat je doorgestuurd wordt naar een pagina die niet bestaat. Dit komt omdat standaard de NL Portal authenticatie verloopt via [Keycloak](https://www.keycloak.org/) en om het opzetten en developen voor de NL Portal makkelijker te maken hebben wij een [Docker Compose](https://github.com/nl-portal/nl-portal-docker-compose) repository gemaakt waar alle benodigdheden om de NL Portal op te starten in zit.
+De NL Portal is daarna bereikbaar op `http://localhost:3000`. Je kunt inloggen met de volgende testgebruikers:
 
-![incomplete-start](img/incomplete-start.png)_Wanneer je voor het eerst de NL Portal opstart zonder een Keycloak instantie_
+| Gebruikersnaam | Wachtwoord | Identificatie (BSN/KVK) |
+| -------------- | ---------- | ----------------------- |
+| burger         | burger     | 999993847               |
+| bedrijf        | bedrijf    | 14127293                |
 
-Voor nu is het genoeg om alleen **Keycloak en database only** stukje te volgen in de README.md van de [Docker Compose](https://github.com/nl-portal/nl-portal-docker-compose) repository.
+**Let op:** het opstarten van alle ZGW componenten kan enkele minuten duren. De profielen `remote` en `local` kunnen niet tegelijk draaien omdat ze dezelfde poorten gebruiken.
 
-Als je dan weer naar de NL Portal gaat, dan zal je zien dat je nu wordt doorgestuurd naar een Keycloak loginscherm. Hier kan je inloggen met gebruiker **burger** en wachtwoord **burger**.
+De volledige tabel met services, poorten en profielen vind je in de README.md van de NL Portal App repository.
 
-![keycloak-login](img/keycloak-login.png)_Keycloak inlogscherm_
+### Route 2: Configureren via het Configuration Panel
 
-**Backend**
+De aanbevolen manier om de NL Portal aan te passen is via het [Configuration Panel](configuration-panel.md). Hiermee kun je zonder code aan te passen:
 
-Nu ben je ingelogd via Keycloak op de NL Portal, maar je kan niet zoveel aangezien de NL Portal nog niet aangesloten is op de backend. Hiervoor ga je naar de [Backend Template](https://github.com/nl-portal/nl-portal-backend-template) repository en volg je de stappen in de README.md.
+* Alle backend modules configureren (ZGW APIs, HaalCentraal, OpenKlant, etc.)
+* Een eigen logo uploaden
+* De huisstijl aanpassen via design tokens
 
-![eerste-stap](img/eerste-stap.png)_Eerste stap in het maken van je eigen NL Portal app_
+Start het Configuration Panel mee in de demo-omgeving:
 
-Zodra de backend draait kan je de NL Portal app refreshen in je browser, en dan zie je dat er ook data beschikbaar is. Je eerste NL Portal app is een feit!
+```shell
+docker compose --profile remote --profile zgw --profile haalcentraal --profile config up -d
+```
 
-### Vervolg stappen
+Het Configuration Panel is bereikbaar op `http://localhost:3001` met gebruikersnaam **admin** en wachtwoord **admin**.
 
-Nu de eerste NL Portal app gemaakt is kan je verder werken aan de NL Portal om het eigen te maken. Updaten van de vormgeving, aanpassen van de menu's en meer. Het staat je tenslotte geheel vrij om de NL Portaal te pakken en deze aan te passen naar jou wensen. Opties zijn om te koppelen met Openzaak, Objects API, OpenKlant en/of HaalCentraal.
+Zie de [Configuration Panel](configuration-panel.md) pagina voor uitgebreide documentatie over het aansluiten van een bestaande NL Portal instantie.
+
+### Route 3: Fork de repository (geavanceerd)
+
+Wil je de NL Portal uitbreiden met eigen componenten of functionaliteit die niet via configuratie mogelijk is? Fork dan de [NL Portal App](https://github.com/nl-portal/nl-portal-app) repository en bouw je eigen images:
+
+1. Fork de repository op GitHub en clone je fork lokaal.
+2. Pas de frontend en/of backend aan naar wens.
+3. Bouw en start je eigen images met:
+
+```shell
+docker compose --profile local --profile zgw --profile haalcentraal up -d --build
+```
+
+Ook nu is de NL Portal bereikbaar op `http://localhost:3000` met dezelfde testgebruikers als hierboven.
+
+**Wanneer forken?** Alleen nodig voor:
+* Eigen frontend componenten of pagina's
+* Eigen backend plugins of modules
+* Aanpassingen aan de authenticatiemethoden (zie [Keycloak configuratie](keycloak.md))
+
+Voor configuratie van API-koppelingen en huisstijl is forken niet nodig — gebruik hiervoor het [Configuration Panel](configuration-panel.md).
+
+### Configuratie via environment variabelen
+
+De NL Portal app images kunnen ook volledig geconfigureerd worden via environment variabelen. De volledige referentie met inline documentatie vind je in de NL Portal App repository, in de bestanden `imports/backend.env` en `imports/frontend.env`. Zie de [Deployment guide](deployment-guide.md) voor de naamconventie, de module-configuratie en het deployen met Helm.
+
+### Vervolgstappen
+
+Nu je eerste NL Portal draait kun je verder met:
+
+* [Configuration Panel](configuration-panel.md) — configureer API-koppelingen en theming via een UI.
+* [Eigen vormgeving](eigen-vormgeving.md) — meer informatie over design tokens en huisstijl.
+* [Deployment guide](deployment-guide.md) — deploy de NL Portal naar je eigen omgeving (Azure, AWS of Kubernetes).
+* [Keycloak configuratie](keycloak.md) — sluit de NL Portal aan op je eigen Keycloak.
